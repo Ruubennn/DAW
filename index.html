@@ -5,7 +5,8 @@
         <title> Página Principal </title>
         <!--Meter más metadatos-->
         <meta charset="utf-8">  
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">  
+        <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
+        <link rel="stylesheet" href="/Contenido/CSS/paginaPrincipal.css">  
     </head>
 
 
@@ -60,19 +61,24 @@
     <body>       
         <h2> PRÓXIMO PARTIDO </h2> 
 
-        <section>
-                <p> 15 Martes Febrero</p>
-                <figure>     
-                    <img src="Imagenes/Escudo.png">
+        <div id="proximoPartido">
+            <section>
+                <p class="fecha"> 15 Martes Febrero</p>
+                <figure id="equipoLocal">   
+                        <img src="Imagenes/Escudo.png">
                 </figure>
-                <p> 13:30</p> 
-                <figure>     
-                    <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
-                </figure>
-                <p> Polideportivo - USC </p>
-        </section> 
 
-        <h2> CLASIFICACIÓN </h2>
+                <p class="hora"> 13:30</p> 
+
+                <figure id="equipoVisitante">    
+                   <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
+                </figure>
+                <p class="lugar"> Polideportivo - USC </p>
+            </section> 
+        </div>
+
+
+        <h2 class="tituloClasificacion"> CLASIFICACIÓN </h2>
         
         <section>
             <table>

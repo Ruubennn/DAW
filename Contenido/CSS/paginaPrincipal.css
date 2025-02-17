@@ -1,0 +1,85 @@
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    font-weight: bold;
+}
+
+/*     PRÓXIMO PARTIDO     */
+#proximoPartido{
+    background: #2e5f82;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#equipoLocal img {
+    position: relative; 
+    left: -300px;
+    top: -50px;
+    width: 400px;
+}
+
+#equipoVisitante img {
+    position: relative; 
+    left: 325px;
+    top: -580px;
+    width: 400px;
+    height: 350px;
+}
+
+.hora {
+    font-size: 50px;    
+    position: relative;
+    top: -350px;
+}
+
+
+.fecha {
+    font-size: 50px;    
+    position: relative;
+}
+
+.lugar {
+    position: relative;
+    bottom: 600px; 
+    font-size: 50px;
+}
+
+/*     CLASIFICACIÓN     */
+
+table { /* Tabla */
+    width: 50%;
+}
+
+th { /* Celda */
+    background: #2e5f82;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 10px; 
+}
+
+.tituloClasificacion {
+    margin-right: 900px;
+
+}
+
+
+/*     ÚLTIMOS RESULTADOS     */
+/*     NOTICIAS     */
+
+
+
+
+
+
+
