@@ -1,3 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#icono_principal {
+    background: #2e5f82;
+}
+
+
 #menu {
     background: #2e5f82;
+    float: right;
+
+}
+
+ul, li{
+    display: inline;
+}
+
+figure{
+    display: inline;
+    margin-left: 1px;
+}
+
+header{
+    background: #2e5f82;
+    
+}
+
+/*#menu_redes  ul{
+    background: #2e5f82;
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 10px; 
+  }*/
+
+  
+
+.perfil {
+    display: inline;
+}
+
+
+h1{
+
+}
+
+h2{
+    
+}
+
+p {
+
 }
