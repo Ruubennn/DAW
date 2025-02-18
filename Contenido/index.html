@@ -1,67 +1,121 @@
 <!DOCTYPE html>
-<!-- ESTO ES UN COMENTARIO-->
+<!-- Color de la Web: 2e5f82 -->
 <html>
     <head>
-        <meta charset="utf-8">
         <title> Página Principal </title>
+        <!--Meter más metadatos-->
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
+        <link rel="stylesheet" href="/Contenido/CSS/paginaPrincipal.css">  
     </head>
 
-    <body>
 
-        <nav>
-            <a href="index.html"><img src="../Imagenes/Escudo.png"></a>
-            <ul>
-                <li> Equipo 
-                    <ul>
-                        <li> <a href="../Contenido/plantilla.html">Plantilla</a> </li>
-                        <li> <a href="../Contenido/cuerpotecnico.html">Cuerpo Técnico </a></li>
-                    </ul>
-                </li>
-                <li> Calendario 
-                    <ul>
-                        <li> <a href="../Contenido/partidos.html">Partidos</a> </li>
-                        <li> <a href="../Contenido/clasificacion.html">Clasificación</a></li>
-                    </ul>
+    <header>
+        <div id = "menu">
+            <nav>
+                <ul>
+                    <li> Equipo 
+                        <ul>
+                            <li> <a href="Contenido/plantilla.html">Plantilla</a> </li>
+                            <li> <a href="Contenido/cuerpotecnico.html">Cuerpo Técnico</a></li>
+                        </ul>
+                    </li>
+                    <li> Calendario
+                        <ul>
+                            <li> <a href="Contenido/partidos.html">Partidos</a></li>
+                            <li> <a href="Contenido/clasificacion.html">Clasificación</a></li>
+                        </ul>
+    
+                    </li>
+                    
+                    <li> <a href="Contenido/nosotros.html">Nosotros</a> </li>
+                    <li> <a href="Contenido/socio.html">Socio</a> </li>
+                    <li> <a href="/Contenido/noticias.html">Noticias</a> </li>
+                    <li> <a href="/Contenido/galeria.html">Galeria</a> </li>
+                    <li> <a href="/Contenido/contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+    
+            <nav>
+                <ul class="redes">
+                    <li> <figure><a href="https://www.instagram.com/estrella_coja_cf?igsh=bzdoMnJ0dG5oZWZz"><img src="/Imagenes/PaginaPrincipal/Instagram.png" style="width: 35px; height: 35px;"></a></figure> </li>
+                    <li> <figure><a href="https://www.youtube.com/@Estrella_Coja"><img src="/Imagenes/PaginaPrincipal/YouTube.png" style="width: 35px; height: 35px;"></a></figure> </li>
+                    <li> <figure><a href="https://x.com/EstrellaCoja_CF?t=2Yvm4CvjSTZR2-ZfMWVw4Q&s=08"><img src="/Imagenes/PaginaPrincipal/X.png" style="width: 35px; height: 35px;"></a></figure> </li>
+                    <li> <figure><a href="https://www.facebook.com/profile.php?id=61573090588889"><img src="/Imagenes/PaginaPrincipal/Facebook.png" style="width: 35px; height: 35px;"></a></figure> </li>
+                    <li> <figures><a href="https://www.tiktok.com/@estrella_coja_cf"><img src="/Imagenes/PaginaPrincipal/TikTok.png" style="width: 35px; height: 35px;"></a></figure> </li>
+                    <!--<li><figure><img src="Imagenes/PaginaPrincipal/lupa.png" style="width: 75px; height: 75px;"> </figure></li>-->
+                </ul>
+            </nav>
+        </div>
 
-                </li>
-                
-                <li> <a href="../Contenido/nosotros.html">Nosotros</a> </li>
-                <li> <a href="../Contenido/socio.html">Socio</a> </li>
-                <li> <a href="../Contenido/noticias.html">Noticias</a> </li>
-                <li> <a href="../Contenido/galeria.html">Galeria</a> </li>
-                <li> <a href="../Contenido/contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
+        <figure><a href="index.html"><img id="icono_principal" src="/Imagenes/Escudo.png" style="width:250px;height:250px"></a></figure>
         
-        <nav>
-            <ul>
-                <li> <a href="https://www.instagram.com/estrella_coja_cf?igsh=bzdoMnJ0dG5oZWZz"><img src="../Imagenes/PaginaPrincipal/Instagram.png"></a> </li>
-                <li> <a href="https://www.youtube.com/@Estrella_Coja"><img src="../Imagenes/PaginaPrincipal/YouTube.png"></a> </li>
-                <li> <a href="https://x.com/EstrellaCoja_CF?t=2Yvm4CvjSTZR2-ZfMWVw4Q&s=08"><img src="../Imagenes/PaginaPrincipal/X.png"></a> </li>
-                <li> <a href="https://www.facebook.com/profile.php?id=61573090588889"><img src="../Imagenes/PaginaPrincipal/Facebook.png"></a> </li>
-                <li> <a href="https://www.tiktok.com/@estrella_coja_cf"><img src="../Imagenes/PaginaPrincipal/TikTok.png"></a> </li>
-                <figure>
-                    <img src="../Imagenes/PaginaPrincipal/lupa.png"> <!-- Añadir funcionalidad -->
-                </figure>
-            </ul>
-        </nav>
-        
+    </header>
+
+    <body>       
         <h2> PRÓXIMO PARTIDO </h2> 
 
-        <section>
-                <p> 15 Martes Febrero</p>
-                <figure>     
-                    <img src="../Imagenes/Escudo.png">
+        <div id="proximoPartido">
+            <section>
+                <p class="fecha"> 15 Martes Febrero</p>
+                <figure id="equipoLocal">   
+                        <img src="Imagenes/Escudo.png">
                 </figure>
-                <p> 13:30</p> 
-                <figure>     
-                    <img src="../Imagenes/PaginaPrincipal/BarakaldoCF.png">
-                </figure>
-                <p> Polideportivo - USC </p>
-        </section> 
 
-        <h2> CLASIFICACIÓN </h2>
+                <p class="hora"> 13:30</p> 
+
+                <figure id="equipoVisitante">    
+                   <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
+                </figure>
+                <p class="lugar"> Polideportivo - USC </p>
+            </section> 
+        </div>
         
+        <div class="titulos">
+            <h2 class="tituloClasificacion"> CLASIFICACIÓN </h2>
+            <h2 class="tituloProximosPartidos"> ÚLTIMOS RESULTADOS </h2>
+        </div>
+        <div id="seccion2">
+
+        <!--<div id="proximosPartidos">
+            <section>
+                <figure class="imagenesPartidos equipo1"> <img src="Imagenes/Escudo.png"> </figure>
+                <p> 1 - 0 </p>
+                <figure class="imagenesPartidos">   <img src="Imagenes/Escudo.png"> </figure>
+
+                <figure class="imagenesPartidos">  <img src="Imagenes/Escudo.png"> </figure>
+                <p> 1- 4 </p> 
+                <figure class="imagenesPartidos">   <img src="Imagenes/Escudo.png"> </figure>
+            </section> 
+        </div>
+    -->
+    <div id="proximosPartidos">
+        <section>
+          <div class="partido">
+            <figure class="imagenesPartidos equipo1">
+              <img src="Imagenes/Escudo.png" alt="Equipo 1">
+            </figure>
+            <p class="resultado">1 - 0</p>
+            <figure class="imagenesPartidos equipo2">
+              <img src="Imagenes/Escudo.png" alt="Equipo 2">
+            </figure>
+          </div>
+      
+          <div class="partido">
+            <figure class="imagenesPartidos equipo3">
+              <img src="Imagenes/Escudo.png" alt="Equipo 3">
+            </figure>
+            <p class="resultado">1 - 4</p>
+            <figure class="imagenesPartidos equipo4">
+              <img src="Imagenes/Escudo.png" alt="Equipo 4">
+            </figure>
+          </div>
+        </section>
+      </div>
+      
+      
+
+        <div id="clasificacion">
         <section>
             <table>
                 <tr>
@@ -87,29 +141,48 @@
                     <th> Equipo 3 </th>
                     <th> 22 </th>
                 </tr>
+
+                <tr>
+                    <th> 5 </th>
+                    <th> Equipo 4 </th>
+                    <th> 18 </th>
+                </tr>
+
+                <tr>
+                    <th> 6 </th>
+                    <th> Equipo 5 </th>
+                    <th> 15 </th>
+                </tr>
+
+                <tr>
+                    <th> 7 </th>
+                    <th> Equipo 6 </th>
+                    <th> 10 </th>
+                </tr>
             </table>
         </section>
+    </div>
 
-        <h2> ÚLTIMOS RESULTADOS </h2>
-        <section>
-            <figure> Equipo 1</figure>
-            <p> Resultado 1 <p></p>
-            <p> Resltado 2 </p> 
-            <figure> Equipo 1</figure>
+    </div>
+        
+        
+    <h2> ÚLTIMAS NOTICIAS </h2> 
 
-            <figure> Equipo 1</figure>
-            <p> Resultado 1.2 <p></p>
-            <p> Resltado 2.2 </p> 
-            <figure> Equipo 1</figure>
+
+        <section class="conjuntoImagenes">
+            <figure class="imagenesNoticias noticia2"><a href="Contenido/Noticias/Noticia2.html" ><img src="Imagenes/Noticias/playoffs.png"></a></figure>
+            
+            <figure class="imagenesNoticias noticia1"><a href="Contenido/Noticias/Noticia1.html" ><img src="Imagenes/Noticias/polideportivo.jpeg"></a></figure>
+            
+            <figure class="imagenesNoticias noticia3"><a href="Contenido/Noticias/Noticia3.html" ><img src="Imagenes/Noticias/var.jpeg"></a></figure>
+            
+            <!-- Hacer que estos titulares lleven también a la noticia--> 
+            <p class="titulares titular1"> Hay Goteras en el polideportivo</p>
+            <p class="titulares titular2"> Arbitraje de escándalo</p>
+            <p class="titulares titular3"> Cominezan los Playoffs</p>
         </section> 
 
-        <section>
-            <a href="../Contenido/Noticias/Noticia1.html" ><img src="../Imagenes/Noticias/polideportivo.jpeg"></a>
-            <a href="../Contenido/Noticias/Noticia2.html" ><img src="../Imagenes/Noticias/futbol.png"></a>
-            <a href="../Contenido/Noticias/Noticia3.html" ><img src="../Imagenes/Noticias/var.jpeg"></a>
-        </section> 
-
-        <footer> <p>Estrella Coja</p> </footer>
+        <footer> Estrella Coja </footer>
 
     </body>
 </html>

@@ -1,6 +1,91 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #2e5f82;
+    padding: 0px;
+}
+
+#icono_principal {
+    height: auto;
+}
+
+#menu {
+    display: grid;
+    grid-template-rows: auto auto; 
+    justify-content: left; 
+    gap: 55px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 100%;
+    background: #2e5f82;
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.redes li{
+    display: inline;
+    gap: 10px;
+}
+
+.redes figure {
+    margin: 0;
+}
+
+.perfil {
+    display: inline;
+}
+
+
+
+
+
+
+/*
+
+DISEÑO ANTERIOR: DEJAR POR SI LAS MOSCAS
+-Para que funcione, se requiere cambiar la posición del logo en el html
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 #icono_principal {
@@ -12,6 +97,8 @@ body {
     background: #2e5f82;
     float: right;
     padding: 40px;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
 
 }
@@ -20,7 +107,7 @@ ul, li{
     display: inline;
 }
 
-.redes figure{
+figure{
     display: inline;
     margin-left: 1px;
 }
@@ -28,17 +115,5 @@ ul, li{
 header{
     background: #2e5f82;
     
-}
+}*/
 
-.perfil {
-    display: inline;
-}
-
-footer {
-    background: #2e5f82;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
-}
