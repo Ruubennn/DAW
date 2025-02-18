@@ -39,7 +39,7 @@
             </nav>
     
             <nav>
-                <ul>
+                <ul class="redes">
                     <li> <figure><a href="https://www.instagram.com/estrella_coja_cf?igsh=bzdoMnJ0dG5oZWZz"><img src="Imagenes/PaginaPrincipal/Instagram.png" style="width: 35px; height: 35px;"></a></figure> </li>
                     <li> <figure><a href="https://www.youtube.com/@Estrella_Coja"><img src="Imagenes/PaginaPrincipal/YouTube.png" style="width: 35px; height: 35px;"></a></figure> </li>
                     <li> <figure><a href="https://x.com/EstrellaCoja_CF?t=2Yvm4CvjSTZR2-ZfMWVw4Q&s=08"><img src="Imagenes/PaginaPrincipal/X.png" style="width: 35px; height: 35px;"></a></figure> </li>
@@ -76,10 +76,52 @@
                 <p class="lugar"> Polideportivo - USC </p>
             </section> 
         </div>
-
-
-        <h2 class="tituloClasificacion"> CLASIFICACIÓN </h2>
         
+        <div class="titulos">
+            <h2 class="tituloClasificacion"> CLASIFICACIÓN </h2>
+            <h2 class="tituloProximosPartidos"> ÚLTIMOS RESULTADOS </h2>
+        </div>
+        <div id="seccion2">
+
+        <!--<div id="proximosPartidos">
+            <section>
+                <figure class="imagenesPartidos equipo1"> <img src="Imagenes/Escudo.png"> </figure>
+                <p> 1 - 0 </p>
+                <figure class="imagenesPartidos">   <img src="Imagenes/Escudo.png"> </figure>
+
+                <figure class="imagenesPartidos">  <img src="Imagenes/Escudo.png"> </figure>
+                <p> 1- 4 </p> 
+                <figure class="imagenesPartidos">   <img src="Imagenes/Escudo.png"> </figure>
+            </section> 
+        </div>
+    -->
+    <div id="proximosPartidos">
+        <section>
+          <div class="partido">
+            <figure class="imagenesPartidos equipo1">
+              <img src="Imagenes/Escudo.png" alt="Equipo 1">
+            </figure>
+            <p class="resultado">1 - 0</p>
+            <figure class="imagenesPartidos equipo2">
+              <img src="Imagenes/Escudo.png" alt="Equipo 2">
+            </figure>
+          </div>
+      
+          <div class="partido">
+            <figure class="imagenesPartidos equipo3">
+              <img src="Imagenes/Escudo.png" alt="Equipo 3">
+            </figure>
+            <p class="resultado">1 - 4</p>
+            <figure class="imagenesPartidos equipo4">
+              <img src="Imagenes/Escudo.png" alt="Equipo 4">
+            </figure>
+          </div>
+        </section>
+      </div>
+      
+      
+
+        <div id="clasificacion">
         <section>
             <table>
                 <tr>
@@ -105,26 +147,45 @@
                     <th> Equipo 3 </th>
                     <th> 22 </th>
                 </tr>
+
+                <tr>
+                    <th> 5 </th>
+                    <th> Equipo 4 </th>
+                    <th> 18 </th>
+                </tr>
+
+                <tr>
+                    <th> 6 </th>
+                    <th> Equipo 5 </th>
+                    <th> 15 </th>
+                </tr>
+
+                <tr>
+                    <th> 7 </th>
+                    <th> Equipo 6 </th>
+                    <th> 10 </th>
+                </tr>
             </table>
         </section>
+    </div>
 
-        <h2> ÚLTIMOS RESULTADOS </h2>
-        <section>
-            <figure> Equipo 1</figure>
-            <p> Resultado 1 <p></p>
-            <p> Resltado 2 </p> 
-            <figure> Equipo 2</figure>
+    </div>
+        
+        
+    <h2> ÚLTIMAS NOTICIAS </h2> 
 
-            <figure> Equipo 1</figure>
-            <p> Resultado 1.2 <p></p>
-            <p> Reslutado 2.2 </p> 
-            <figure> Equipo 2</figure>
-        </section> 
 
-        <section>
-            <figure><a href="Contenido/Noticias/Noticia1.html" ><img src="Imagenes/Noticias/polideportivo.jpeg"></a></figure>
-            <figure><a href="Contenido/Noticias/Noticia2.html" ><img src="Imagenes/Noticias/futbol.png"></a></figure>
-            <figure><a href="Contenido/Noticias/Noticia3.html" ><img src="Imagenes/Noticias/var.jpeg"></a></figure>
+        <section class="conjuntoImagenes">
+            <figure class="imagenesNoticias noticia2"><a href="Contenido/Noticias/Noticia2.html" ><img src="Imagenes/Noticias/playoffs.png"></a></figure>
+            
+            <figure class="imagenesNoticias noticia1"><a href="Contenido/Noticias/Noticia1.html" ><img src="Imagenes/Noticias/polideportivo.jpeg"></a></figure>
+            
+            <figure class="imagenesNoticias noticia3"><a href="Contenido/Noticias/Noticia3.html" ><img src="Imagenes/Noticias/var.jpeg"></a></figure>
+            
+            <!-- Hacer que estos titulares lleven también a la noticia--> 
+            <p class="titulares titular1"> Hay Goteras en el polideportivo</p>
+            <p class="titulares titular2"> Arbitraje de escándalo</p>
+            <p class="titulares titular3"> Cominezan los Playoffs</p>
         </section> 
 
         <footer> Estrella Coja </footer>

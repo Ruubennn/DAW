@@ -20,7 +20,7 @@ ul, li{
     display: inline;
 }
 
-figure{
+.redes figure{
     display: inline;
     margin-left: 1px;
 }
@@ -30,24 +30,15 @@ header{
     
 }
 
-
-
-
-  
-
 .perfil {
     display: inline;
 }
 
-
-h1{
-
-}
-
-h2{
-    
-}
-
-p {
-
+footer {
+    background: #2e5f82;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
 }

@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.imagen img{
+    width:40%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 50px;
+    margin-right: 0;
+}
+
+.texto{
+    background: #2e5f82;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    width: 500px;
+    text-align: center;
+  }
+
+  .titular1{
+    position: relative;
+    left: 90px;
+    top: -40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .pieFoto {
+    position: relative;
+    left: 100px;
+    bottom: 59px;
+    width: 783px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.datosResumen{
+    font-weight: bold;
+    float: right;
+}
+
+p{
+    font-size: 30px;
+}
+
+.descripcion {
+    text-align: left;
+    width: 1675px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 40px;
+}
+
+.datosPersonales{
+    text-align: center;
+}
+
+.datosPersonales p {
+    text-align: center;
+    display: inline;
+    margin-right: 40px; 
+  }
+  
