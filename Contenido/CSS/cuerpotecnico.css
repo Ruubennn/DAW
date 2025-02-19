@@ -1,0 +1,60 @@
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 60px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+
+figure figcaption {
+    background: #2e5f82;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    width: 425px;
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+
+#SeccionSuperior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#SeccionSuperior figure {
+    width: 425px; 
+    text-align: center;
+}
+
+#SeccionSuperior figure img{
+    width:100%;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+
+#SeccionInferior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#SeccionInferior figure {
+    width: 425px; 
+    text-align: center;
+}
+
+#SeccionInferior figure img{
+    width:100%;
+    margin-top: 30px;
+    border-radius: 50px;
+    
+}
+
