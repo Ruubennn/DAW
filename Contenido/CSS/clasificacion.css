@@ -1,0 +1,88 @@
+.seleccion{
+    border-radius: 50px;
+    background: white;
+    text-align: center;
+    width: 35%;
+    font-size: 25px;
+    border: 4px solid black;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+  
+  ul li {
+    display: inline;  
+    margin-right: 41px;  
+    
+  }
+
+  .elementos a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .seleccionado a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #2e5f82;
+    border: 4px solid black;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+table { /* Tabla */
+    width: 80%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+
+}
+
+th { /* Celda */
+    
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 4px solid black;
+    /*border: 3px solid white;
+    border-radius: 10px; 
+    border-color: black;*/
+}
+
+/* Aplica el borde solo a la primera celda de cada fila que no sea la primera */
+tr:not(:first-child) th:first-child {
+    border-left: 4px solid black;
+  }
+  
+  /* Aplica el borde solo a la última celda de cada fila que no sea la primera */
+  tr:not(:first-child) th:last-child {
+    border-right: 4px solid black;
+  }
+
+.primeros{
+    background: rgb(0, 255, 0)
+}
+  
+.segundos {
+    background: yellow;
+  }
+  
+
+.ultimos{
+    background: red;
+}
+
+  
+  

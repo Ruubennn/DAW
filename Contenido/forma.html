@@ -7,7 +7,7 @@
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/clasificacion.css">
 
     </head>
 
@@ -52,26 +52,41 @@
         </div>
     </header>
 
-    <body>    
+    <body>  
         <nav>
             <ul>
-                <li><a href="resumida.html">Resumida</a></li>
-                <li><a href="clasificacion.html">Completa</a></li>
-                <li><a href="forma.html">Forma</a></li>
+                <li> Liga 2024/25 
+                    <ul>
+                        <li> <a href="../Contenido/clasificacion.html">Liga 2024/25</a> </li>
+                        <li> <a href="../Contenido/copa.html">Copa 2024/25 </a></li>
+                    </ul>
+                </li>
+                <li>
             </ul>
         </nav>
-        
-        <h2> CLASIFICACIÓN </h2>
+
+        <nav>
+            <ul class="seleccion">
+                <li class="elementos"><a href="resumida.html">Resumida</a></li>
+                <li class="elementos"><a href="clasificacion.html">Completa</a></li>
+                <li class="seleccionado"><a href="forma.html">Forma</a></li>
+            </ul>
+        </nav>
         
         <section>
             <table>
                 <tr>
                     <th> # </th>
                     <th> Equipo </th>
+                    <th> P.10 </th>
+                    <th> P.11 </th>
+                    <th> P.12 </th>
+                    <th> P.13 </th>
+                    <th> P.14 </th>
                     
                 </tr>
 
-                <tr>
+                <tr class="primeros">
                     <th> 1 </th>
                     <th> Estrella Coja </th>
                     <th> G </th>
@@ -81,7 +96,7 @@
                     <th> G </th>
                 </tr>
 
-                <tr>
+                <tr class="primeros">
                     <th> 2 </th>
                     <th> Equipo 1 </th>
                     <th> G </th>
@@ -91,7 +106,7 @@
                     <th> G </th>
                 </tr>
                 
-                <tr>
+                <tr class="segundos">
                     <th> 3 </th>
                     <th> Equipo 2 </th>
                     <th> G </th>
@@ -101,7 +116,7 @@
                     <th> E </th>
                 </tr>
 
-                <tr>
+                <tr class="segundos">
                     <th> 4 </th>
                     <th> Equipo 3 </th>
                     <th> G </th>
@@ -191,7 +206,7 @@
                     <th> E </th>
                 </tr>
 
-                <tr>
+                <tr class="ultimos">
                     <th> 13 </th>
                     <th> Equipo 12 </th>
                     <th> G </th>
@@ -201,7 +216,7 @@
                     <th> P </th>
                 </tr>
 
-                <tr>
+                <tr class="ultimos">
                     <th> 14 </th>
                     <th> Equipo 13 </th>
                     <th> P </th>
