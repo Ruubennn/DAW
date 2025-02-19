@@ -1,4 +1,4 @@
-/*body {
+body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
@@ -23,7 +23,7 @@ header {
     gap: 55px;
 }
 
-nav ul {
+.contenido ul, .redes ul {
     list-style: none;
     gap: 20px;
     padding: 0;
@@ -31,7 +31,7 @@ nav ul {
 
 }
 
-nav ul li {
+.contenido ul li, .redes ul li{
     color: white;
     text-decoration: none;
     font-family: sans-serif;
@@ -39,7 +39,7 @@ nav ul li {
     font-weight: bold;
 }
 
-nav ul li a{
+.contenido ul li a, .redes ul li a{
     color: white;
     text-decoration: none;
     font-size: 25px;
@@ -47,8 +47,8 @@ nav ul li a{
     font-weight: bold;
 }
 
-nav ul li ul {
-    position: absolute;
+.contenido ul li ul, .redes ul li ul {
+    position: relative;
     top: 100%;
     background: #2e5f82;
     list-style: none;
@@ -71,7 +71,7 @@ nav ul li ul {
 
 .perfil {
     display: inline;
-}*/
+}
 
 
 
@@ -82,10 +82,8 @@ nav ul li ul {
 
 DISEÑO ANTERIOR: DEJAR POR SI LAS MOSCAS
 -Para que funcione, se requiere cambiar la posición del logo en el html
-*/
 
-
-/*body {
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -99,6 +97,8 @@ DISEÑO ANTERIOR: DEJAR POR SI LAS MOSCAS
     background: #2e5f82;
     float: right;
     padding: 40px;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
 
 }
@@ -116,51 +116,4 @@ header{
     background: #2e5f82;
     
 }*/
-
-/* Versión funcional recuperada */
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-#icono_principal {
-    background: #2e5f82;
-}
-
-
-#menu {
-    background: #2e5f82;
-    float: right;
-    padding: 40px;
-    font-size: 30px;
-
-}
-
-ul, li{
-    display: inline;
-}
-
-.redes figure{
-    display: inline;
-    margin-left: 1px;
-}
-
-header{
-    background: #2e5f82;
-    
-}
-
-.perfil {
-    display: inline;
-}
-
-footer {
-    background: #2e5f82;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
-}
-
 
