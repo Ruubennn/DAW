@@ -9,6 +9,16 @@ h1{
     font-size: 45px;
 }
 
+.Titulo h2{
+    width: 100%;
+    text-align: center;
+}
+
+.Titulo .Extra{
+    width: 0%;
+    text-align: center;
+    visibility: hidden;
+}
 
 figure figcaption {
     background: #2e5f82;
@@ -30,32 +40,38 @@ figure figcaption {
 #Porteros figure img{
     width:100%;
     margin-top: 30px;
-    border-radius: 50px;
-    
+    border-radius: 50px;    
 }
 
 #Cierres, #Alas {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    margin-left: 100px;
+    gap: 100px;
 }
 
 #Cierres figure, #Alas figure {
-    width: 425px; 
+    flex: 1;
+    max-width: 425px;
+    width: 100%; 
     text-align: center;
+
 }
 
 #Cierres figure img, #Alas figure img{
-    width:100%;
+    max-width: 100%;
+    min-width: 50%;
     margin-top: 30px;
     border-radius: 50px;
-    
 }
 
-#Pivots {
+#Pivots, #Porteros {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    gap: 100px;
+    margin-left: 100px;
 }
 
 #Pivots figure {
