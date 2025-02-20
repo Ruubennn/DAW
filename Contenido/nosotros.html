@@ -7,7 +7,7 @@
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/nosotros.css">
 
     </head>
 
@@ -54,52 +54,74 @@
 
 
     <body>   
-        <h2> SOBRE NOSOTROS </h2>
+        <h2 class="nombre"> SOBRE NOSOTROS </h2>
 
         <section>
-            <figure>
-                <img src="../Imagenes/Escudo.png">
-            </figure>
-
-            <p>
+            <p class="descripcion">
                 Estrella Coja es un equipo de fútbol sala universitario fundado en el año 2022 por un conjunto de estudiantes de la USC.
                 Desde su aparición en la Liga Universitaria de Fútbol Sala, ha ido escalando divisiones hasta posicionarse como uno de los 
                 clubes más vistosos de la Primera División, enamorando con su juego y conquistando un total de cuatro títulos.
             </p>
+
+            <figure class="escudo">
+                <img src="../Imagenes/Escudo.png">
+            </figure>
+
+            
         </section>
 
         <section>
-            <h2> DATOS DEL CLUB </h2>
-            <ul>
-                <li> Fundación: 13 enero de 2022 </li>
-                <li> Presidente: Florentino Pérez </li>
-                <li> Junta Directiva: Asamblea de Socios </li>
-                <li> Galeria <a href="../Contenido/galeria.html"> consulta aquí la galería del club</a> </li>
-                <li> Noticias <a href="../Contenido/noticias.html"> consulta aquí la noticias del club</a> </li>
-                <li> Número de socios: 318 </li>
-            </ul>
-        </section>
-        
-        <section>
-            <h2> PALMARÉS </h2>
+            <div class="contenedor">
+                <h2 class="palmares">PALMARÉS</h2>
+                <h2 class="datosClub">DATOS DEL CLUB</h2>
+            </div>
+            
 
-            <figure>
-                <img src="../Imagenes/Contacto/copa.png">
-            </figure>
-            <p> Liga - USC</p>
-            <p> 2</p>
+            <div class="contenedor2">
+       
+                <div class="contenedor3">
 
-            <figure>
-                <img src="../Imagenes/Contacto/champions.png">
-            </figure>
-            <p> Copa - USC</p>
-            <p> 1 </p>
+                    <div class="contenedorTitulos">
+                        <div class="item1">
+                            <p> Liga - USC</p>
+                            <p> 2</p>
+                        </div>
 
-            <figure>
-                <img src="../Imagenes/Contacto/mundial.png">
-            </figure>
-            <p> Copa Interuniversitaria </p>
-            <p> 1 </p>
+                        <div class="item2">
+                            <p> Copa - USC</p>
+                            <p> 1 </p>
+                        </div>
+
+                        <div class="item3">
+                            <p> Interuniversitaria </p>
+                            <p> 1 </p>
+                        </div>
+                    </div>
+
+                    <figure class="foto1">
+                        <img src="../Imagenes/Contacto/copa.png">
+                    </figure>
+
+                    <figure class="fotos">
+                        <img src="../Imagenes/Contacto/champions.png">
+                    </figure>
+
+                    <figure class="fotos">
+                            <img src="../Imagenes/Contacto/mundial.png">
+                    </figure>
+
+                </div>
+
+                <ul class="datos">
+                    <li> Fundación: 13 enero de 2022 </li>
+                    <li> Presidente: Florentino Pérez </li>
+                    <li> Junta Directiva: Asamblea de Socios </li>
+                    <li> Galeria <a href="../Contenido/galeria.html"> consulta aquí la galería del club</a> </li>
+                    <li> Noticias <a href="../Contenido/noticias.html"> consulta aquí la noticias del club</a> </li>
+                    <li> Número de socios: 318 </li>
+               </ul>
+
+            </div>
         </section>
 
         <footer> <p>Estrella Coja</p> </footer>
