@@ -1,0 +1,27 @@
+.boton {
+    display: block; 
+    text-align: center; 
+    margin: 20px auto; 
+    width: 500px; 
+    margin-bottom: 100px;
+}
+    
+.boton input {
+   background-color: #2e5f82;
+   color: white; 
+   font-size: 40px;
+   padding: 30px 40px; 
+   border: none; 
+   cursor: pointer; 
+   width: 100%; 
+   border-radius: 50px;
+   text-align: center;
+}
+   
+.boton input:hover {
+   background-color: red;  
+}
+
+.botonEnviar input {
+    width: 70%;
+ }

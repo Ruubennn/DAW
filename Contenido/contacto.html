@@ -7,7 +7,9 @@
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/boton.css">
+        <link rel="stylesheet" href="/Contenido/CSS/formulario.css">
+        <link rel="stylesheet" href="/Contenido/CSS/contacto.css">
 
     </head>
 
@@ -55,40 +57,47 @@
     <body>   
         <h2> CONTACTO </h2>
 
-        <section>
-            <h4> Dirección </h4>
-            <p>
-                Rúa de Lope Gómez de Marzoa, 1, Santiago de Compostela, A Coruña, 15705
-            </p>
-            <p>
-                Telefóno: 678 123 456
-            </p>
-
-            <figure>
+        <section class="contenedor0">
+            
+            <figure class="mapa">
                 <img src="../Imagenes/Contacto/mapa.png">
             </figure>
 
+            <div class="infoContacto">
+                <h4> Dirección </h4>
+                <p>
+                    Rúa de Lope Gómez de Marzoa, 1, Santiago de Compostela, A Coruña, 15705
+                </p>
+                <p>
+                    Telefóno: 678 123 456
+                </p>
+            </div>
+
         </section>
+
+        <h4 class="sugerencias"> Sugerencias </h4>
         
-        <section>
-            <h4> Sugerencias </h4>
+        <section class="contenedor">
+            
             <form>
-                <label for="nombre">Nombre*:</label>
-                <input type="text" size="50" name="nombre">
+                <label for="nombre">Nombre<span class="asterisco">*</span></label>
+                <input type="text" name="nombre">
 
                 <br><br>
 
-                <label for="telefono">Telefóno*:</label>
-                <input type="text" size="50" name="telefono">
+                <label for="telefono">Telefóno<span class="asterisco">*</span></label>
+                <input type="text" name="telefono">
 
                 <br><br>
 
-                <label for="sugerencia">Sugerencia*:</label>
+                <label for="sugerencia">Sugerencia<span class="asterisco">*</span></label>
                 <textarea name="sugerencia" rows="5" cols="50"></textarea>
 
                 <br><br>
 
-                <input type="submit" value="Enviar">
+                <p class="boton botonEnviar">
+                    <input type="submit" value="ENVIAR">
+                </p>
 
             </form>
         </section>
@@ -98,5 +107,4 @@
 
     </body>
 </html>
-
 

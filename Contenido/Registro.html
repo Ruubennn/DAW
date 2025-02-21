@@ -7,7 +7,8 @@
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/formulario.css">
+        <link rel="stylesheet" href="/Contenido/CSS/boton.css">
 
     </head>
 
@@ -56,7 +57,7 @@
         <h2>FORMULARIO PARA ASOCIARSE</h2>
 
         <form name="Formulario" action="Envío" method="get">
-            <section>     
+            <!--<section>     
                 <label for="txt">Nombre<input type="text" size="20" name="nombre" id="nom"></label><br/>
                 <label for="txt">Apellidos<input type="text" size="20" name="apellidos" id="ap"></label><br/>
                 <label for="txt">DNI<input type="text" size="20" name="dni" id="dni"></label><br/>
@@ -67,7 +68,25 @@
             
             </section>
     
-            <input type="sumbit" name="sub_1" value="ENVIAR">
+            <p class="boton botonEnviar">
+                <input type="submit" value="ENVIAR">
+            </p>-->
+            <section class="contenedor">     
+                <label for="nom">Nombre <span class="asterisco">*</span><input type="text" size="20" name="nombre" id="nom"></label>
+                <label for="ap">Apellidos <span class="asterisco">*</span><input type="text" size="20" name="apellidos" id="ap"></label>
+                <label for="dni">DNI <span class="asterisco">*</span><input type="text" size="20" name="dni" id="dni"></label>
+                <label for="tel">Número teléfono <span class="asterisco">*</span><input type="text" size="20" name="tel" id="tel"></label>
+                <label for="correo">Correo electrónico <span class="asterisco">*</span><input type="text" size="20" name="correo" id="correo"></label>
+                
+                <label for="checkbox" class="texto">
+                    <input type="checkbox" checked> Deseo recibir información a través de la dirección de correo facilitada
+                </label>
+            </section>
+            
+            <p class="boton botonEnviar">
+                <input type="submit" value="ENVIAR">
+            </p>
+            
         </form>
         
 
