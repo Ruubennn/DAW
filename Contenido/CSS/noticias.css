@@ -2,12 +2,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 60px;
-}
-
-h1{
     font-size: 45px;
 }
+
 
 a{
    text-align: center;
@@ -15,25 +12,28 @@ a{
     text-decoration: none;
 }
 
-h3{
+h2{
+    font-size: 40px;
     text-align: center;
 }
 
 .Noticia {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
 }
 
-.Portada figure {
-    width: 125px; 
+.Portada {
+    width: 400px; 
     text-align: left;
+    flex-shrink: 0;
+    padding-left: 90px;
 }
 
-.Portada figure img{
-    width:20%;
+.Portada a img{
+    width:100%;
     margin-top: 30px;
-    border-radius: 50px;
     
 }
 
@@ -41,6 +41,14 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.Subtitulo {
+    font-size: 30px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 

@@ -7,7 +7,7 @@
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/partidos.css">
 
     </head>
 
@@ -53,64 +53,72 @@
     </header>
 
     <body>  
-        <h2> PARTIDOS </h2> 
 
-        <section>
-            <section>
-                <figure>     
-                    <img src="Imagenes/Escudo.png">
+        <div class="Partidos">
+            <h1> PARTIDOS </h1> 
+
+            <div class="Partido">
+                <figure class="Equipo">     
+                    <img src="/Imagenes/Escudo.png">
                 </figure>
-                <p> 5-1</p> 
-                <figure>     
-                    <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
+                <p class="Resultado" style="background-color: green;"> 5 - 1</p> 
+                <figure class="Equipo">     
+                    <img src="/Imagenes/PaginaPrincipal/BarakaldoCF.png">
                 </figure>
-            </section>
-            <section>
-                    <figure>     
-                        <img src="Imagenes/Escudo.png">
-                    </figure>
-                    <p> 1-1</p> 
-                    <figure>     
-                        <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
-                    </figure>
-            </section>
-            <section>
-                    <figure>     
-                        <img src="Imagenes/Escudo.png">
-                    </figure>
-                    <p> 0-4</p> 
-                    <figure>     
-                        <img src="Imagenes/PaginaPrincipal/BarakaldoCF.png">
-                    </figure>
-            </section>
-        </section>
+            </div>
+            <div class="Partido">
+                <figure class="Equipo">          
+                    <img src="/Imagenes/Escudo.png">
+                </figure>
+                <p class="Resultado" style="background-color: grey;"> 1 - 1</p> 
+                <figure class="Equipo">     
+                    <img src="/Imagenes/PaginaPrincipal/BarakaldoCF.png">
+                </figure>
+            </div>
+            <div class="Partido">
+                <figure class="Equipo">     
+                    <img src="/Imagenes/Escudo.png">
+                </figure>
+                <div class="Resultado" style="background-color: red;">
+                    0 - 4
+                </div>
+                <figure class="Equipo">     
+                    <img src="/Imagenes/PaginaPrincipal/BarakaldoCF.png">
+                </figure>
+            </div>
+        </div>
         
 
-        <h2> PROXIMOS PARTIDOS </h2> 
 
-        <section>
-            <section>
-                    <figure>     
+        <div class="Partidos">
+            <h1> PROXIMOS PARTIDOS </h1> 
+
+            <div class="Partido">
+                    <figure class="Equipo">     
                         <img src="../Imagenes/Escudo.png">
                     </figure>
-                    <p> dom, 26 feb </p> 
-                    <p> 21:00 </p> 
-                    <figure>     
+                    <div class="Detalles">
+                        <p> dom, 26 feb </p> 
+                        <p style="font-weight: bold; font-size: 35px;"> 21:00 </p> 
+                    </div>
+                    <figure class="Equipo">     
                         <img src="../Imagenes/PaginaPrincipal/BarakaldoCF.png">
                     </figure>
-            </section>
-            <section>
-                    <figure>     
+            </div>
+            <div class="Partido">
+                    <figure class="Equipo">     
                         <img src="../Imagenes/Escudo.png">
                     </figure>
-                    <p> dom, 4 mar </p> 
-                    <p> 18:30 </p> 
-                    <figure>     
+                    <div class="Detalles">
+                        <p> dom, 4 mar </p> 
+                        <p style="font-weight: bold; font-size: 35px;"> 18:30 </p> 
+                    </div>
+                    <figure class="Equipo">     
                         <img src="../Imagenes/PaginaPrincipal/BarakaldoCF.png">
                     </figure>
-            </section>
-        </section>
-        <footer> <p>Estrella Coja</p> </footer>
+            </div>
+        </div>
+        <footer> Estrella Coja </footer>
 
     </body>
 </html>

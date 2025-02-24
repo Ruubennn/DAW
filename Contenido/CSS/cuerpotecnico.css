@@ -26,6 +26,7 @@ figure figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    margin-left: 100px;
 }
 
 #SeccionSuperior figure {
@@ -44,6 +45,7 @@ figure figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    margin-left: 100px;
 }
 
 #SeccionInferior figure {

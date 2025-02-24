@@ -1,0 +1,44 @@
+.Partidos {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1px; 
+    margin-bottom: 50px;
+}
+
+.Partido {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    align-items: center; 
+    justify-items: center; 
+    background: #f1f1f1; 
+    border-radius: 10px; 
+    border: 4px solid black; 
+    width: 80%; 
+}
+
+.Partido img {
+    width: 100px; 
+    height: 100px;
+}
+
+.Detalles {
+    text-align: center;
+}
+
+.Detalles p {
+    font-size: 1.2rem;
+}
+
+.Resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    border: 3px solid black; 
+    height: 70px;
+    width: 130px;
+}
