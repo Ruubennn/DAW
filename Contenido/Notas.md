@@ -34,5 +34,5 @@ SOLUCIONAR
 Flexible Grid: Nosotros
 Multicol: Noticias
 Flex: FINALIZADO (PLANTILLA)
-Grid: FINALIZADO (CLASIFICACION)
+Grid: FINALIZADO (Partidos)
 Bootstrap: clasificación

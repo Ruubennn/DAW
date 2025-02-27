@@ -1,0 +1,40 @@
+/* Asegurar que el menú esté en una sola fila */
+.contenido .nav {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    background-color: #2e5f82; /* Color de fondo */
+    padding: 10px 0;
+    border-bottom: 3px solid white; /* Borde blanco */
+}
+
+/* Estilo para los enlaces del menú */
+.contenido .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+/* Cambia el color al pasar el mouse */
+.contenido .nav-item .nav-link:hover {
+    background-color: #6c8ea5;
+    border-radius: 5px;
+}
+
+/* Estilo para los menús desplegables */
+.contenido .dropdown-menu {
+    background-color: #2e5f82;
+    border: 2px solid white;
+}
+
+/* Estilo para los items dentro del menú desplegable */
+.contenido .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* Cambio de color al pasar el mouse en el desplegable */
+.contenido .dropdown-menu .dropdown-item:hover {
+    background-color: #6c8ea5;
+}
