@@ -1,4 +1,17 @@
 /*  Cabecera  */
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 body {
     margin: 0px;
@@ -28,6 +41,7 @@ header {
     gap: 50px;               /* Separación entre logos  */
     display: flex;
     margin-left: 15px;
+    list-style: none;
 }
 
 .logos {
@@ -96,6 +110,7 @@ h2{
       gap: 25px;
       padding: 0;
       margin: 0;
+      list-style: none;
   }
   
   .nav-links li a {

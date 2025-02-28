@@ -1,13 +1,9 @@
-h1{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 50px;
-}
+
 
 .imagen img{
     width:40%;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
     border-radius: 50px;
     margin-right: 0;
 }
@@ -32,9 +28,9 @@ h1{
 
   .pieFoto {
     position: relative;
-    left: 100px;
+    left: 150px;
     bottom: 59px;
-    width: 783px;
+    width: 820px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -68,8 +64,8 @@ p{
 .descripcion {
     text-align: left;
     width: 1675px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 40px;
 }
 

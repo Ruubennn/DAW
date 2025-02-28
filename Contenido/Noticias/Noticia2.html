@@ -1,54 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-ES">
     <head>
-        <title> Noticia 2 </title>
-        <meta charset="utf-8">  
-        <meta lang="es-ES">
+        <title> Clasificación </title>
+
+        <!-- Etiquetas Meta -->
+        <meta charset="utf-8"> 
         <meta name="description" content="Esta página está dedicada al equipo de futbol sala universitario Estrella Coja. Servirá de medio de comunicación con su afición e interesados">
         <meta name="author" content="Rubén Rey Souto & Andrés Pensado Seoane">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keyword" content="Estrella Coja, Estrella Coja FS, FS, Liga Universitaria">
-        <link rel="stylesheet" href="/Contenido/CSS/principal.css">
-        <link rel="stylesheet" href="/Contenido/CSS/noticia.css"> 
- 
+        
+         <!-- Agregar Bootstrap desde un CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+        
+        <!-- Hojas de estilo CSS -->
+        <link rel="stylesheet" href="../CSS/principal.css">
+        <link rel="stylesheet" href="../CSS/noticia.css">
+      
     </head>
 
-
+    <!-- CABECERA DE LA WEB-->
     <header>
-        <figure><a href="/Contenido/index.html"><img id="icono_principal" src="/Imagenes/Escudo.png" style="width:250px;height:250px"></a></figure>
+        
+        <!-- LOGO PRINCIPAL -->
+        <figure> 
+            <a href="../../index.html">
+                <img id="icono_principal" src="/Imagenes/Escudo.png" alt="Escudo">
+            </a>
+        </figure>
+
+         <!-- MENÚ PRINCIPAL -->
         <div id = "menu">
 
-            <nav class = "contenido">
-                <ul>
-                    <li> Equipo 
-                        <ul>
-                            <li> <a href="/Contenido/plantilla.html">Plantilla</a> </li>
-                            <li> <a href="/Contenido/cuerpotecnico.html">Cuerpo Técnico</a></li>
-                        </ul>
-                    </li>
-                    <li> Calendario
-                        <ul>
-                            <li> <a href="/Contenido/partidos.html">Partidos</a></li>
-                            <li> <a href="/Contenido/clasificacion.html">Clasificación</a></li>
-                        </ul>
-    
-                    </li>
-                    
-                    <li> <a href="/Contenido/nosotros.html">Nosotros</a> </li>
-                    <li> <a href="/Contenido/socio.html">Socio</a> </li>
-                    <li> <a href="/Contenido/noticias.html">Noticias</a> </li>
-                    <li> <a href="/Contenido/galeria.html">Galeria</a> </li>
-                    <li> <a href="/Contenido/contacto.html">Contacto</a> </li>
+            <!-- NAVEGACIÓN PRINCIPAL -->
+            <nav class="dropdown_cabecera">
+                <!-- Menú desplegable de Equipo -->
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Equipo
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../Contenido/plantilla.html">Plantilla</a></li>
+                        <li><a class="dropdown-item" href="../Contenido/cuerpotecnico.html">Cuerpo Técnico</a></li>
+                    </ul>
+                </div>
+            
+                <!-- Menú desplegable de Calendario -->
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Calendario
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../Contenido/partidos.html">Partidos</a></li>
+                        <li><a class="dropdown-item" href="../Contenido/clasificacion.html">Clasificación</a></li>
+                    </ul>
+                </div>
+            
+                <!-- Enlaces directos de navegación -->
+                <ul class="nav-links">
+                    <li><a href="/Contenido/nosotros.html">Nosotros</a></li>
+                    <li><a href="/Contenido/socio.html">Socio</a></li>
+                    <li><a href="/Contenido/noticias.html">Noticias</a></li>
+                    <li><a href="/Contenido/galeria.html">Galería</a></li>
+                    <li><a href="/Contenido/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
     
+             <!-- REDES SOCIALES -->
             <nav class = redes>
                 <ul>
-                    <li> <figure><a href="https://www.instagram.com/estrella_coja_cf?igsh=bzdoMnJ0dG5oZWZz"><img src="/Imagenes/PaginaPrincipal/Instagram.png" style="width: 55px; height: 55px;"></a></figure> </li>
-                    <li> <figure><a href="https://www.youtube.com/@Estrella_Coja"><img src="/Imagenes/PaginaPrincipal/YouTube.png" style="width: 55px; height: 55px;"></a></figure> </li>
-                    <li> <figure><a href="https://x.com/EstrellaCoja_CF?t=2Yvm4CvjSTZR2-ZfMWVw4Q&s=08"><img src="/Imagenes/PaginaPrincipal/X.png" style="width: 55px; height: 55px;"></a></figure> </li>
-                    <li> <figure><a href="https://www.facebook.com/profile.php?id=61573090588889"><img src="/Imagenes/PaginaPrincipal/Facebook.png" style="width: 55px; height: 55px;"></a></figure> </li>
-                    <li> <figures><a href="https://www.tiktok.com/@estrella_coja_cf"><img src="/Imagenes/PaginaPrincipal/TikTok.png" style="width: 65px; height: 55px;"></a></figure> </li>
+                    <li> <figure><a href="https://www.instagram.com/estrella_coja_cf?igsh=bzdoMnJ0dG5oZWZz"><img class="logos" src="/Imagenes/PaginaPrincipal/Instagram.png" alt="Instagram"></a></figure> </li>
+                    <li> <figure><a href="https://www.youtube.com/@Estrella_Coja"><img class="logos" src="/Imagenes/PaginaPrincipal/YouTube.png" alt="YouTube"></a></figure> </li>
+                    <li> <figure><a href="https://x.com/EstrellaCoja_CF?t=2Yvm4CvjSTZR2-ZfMWVw4Q&s=08"><img class="logos" src="/Imagenes/PaginaPrincipal/X.png" alt="X"></a></figure> </li>
+                    <li> <figure><a href="https://www.facebook.com/profile.php?id=61573090588889"><img class="logos" src="/Imagenes/PaginaPrincipal/Facebook.png" alt="Facebook"></a></figure> </li>
+                    <li> <figure><a href="https://www.tiktok.com/@estrella_coja_cf"><img class="logos" src="/Imagenes/PaginaPrincipal/TikTok.png" alt="TikTok"></a></figure> </li>
                     
                 </ul>
             </nav>
