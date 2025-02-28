@@ -7,6 +7,12 @@ p{
     font-weight: bold;
 }
 
+ul li {
+  display: inline;  
+  margin-right: 41px;  
+  
+}
+
 /*     PRÓXIMO PARTIDO     */
 #proximoPartido{
     background: #2e5f82;

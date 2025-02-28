@@ -1,3 +1,5 @@
+/*  Cabecera  */
+
 body {
     margin: 0px;
     padding: 0px;
@@ -9,69 +11,30 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     background-color: #2e5f82;
-    padding: 0px;
 }
 
 #icono_principal {
-    height: auto;
+    width: 250px;
 }
 
 #menu {
     display: grid;
     grid-template-rows: auto auto; 
     justify-content: left; 
-    gap: 55px;
+    gap: 55px;              /* Separación entre logos y opciones  */
 }
 
-.contenido ul, .redes ul {
-    list-style: none;
-    gap: 20px;
-    padding: 0;
+.redes ul {
+    gap: 50px;               /* Separación entre logos  */
     display: flex;
-
+    margin-left: 15px;
 }
 
-.contenido ul li, .redes ul li{
-    color: white;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 25px;
-    font-weight: bold;
+.logos {
+    width: 55px;            /* Tamaño de los logos */
 }
 
-.contenido ul li a, .redes ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-.contenido ul li ul, .redes ul li ul {
-    position: relative;
-    top: 100%;
-    background: #2e5f82;
-    list-style: none;
-}
-
-.redes {
-    display: flex;
-    gap: 10px;
-    padding: 0;
-}
-
-.redes li{
-    display: inline;
-    gap: 10px;
-}
-
-.redes figure {
-    margin: 0;
-}
-
-.perfil {
-    display: inline;
-}
+/* Pie de página  */
 
 footer {
     background: #2e5f82;
@@ -89,43 +52,60 @@ h2{
 }
 
 
+/* DESPLEGABLE DE LA CABECERA  */
 
-/*
-
-DISEÑO ANTERIOR: DEJAR POR SI LAS MOSCAS
--Para que funcione, se requiere cambiar la posición del logo en el html
-
-body {
-    margin: 0px;
-    padding: 0px;
+.dropdown_cabecera {
+    display: flex;            /* Alinea todo en una fila */
+    align-items: center;      /* Centra verticalmente */
+    gap: 20px;                /* Espacio entre elementos */
+    width: 100%;
 }
 
-#icono_principal {
-    background: #2e5f82;
-}
-
-
-#menu {
-    background: #2e5f82;
-    float: right;
-    padding: 40px;
-    justify-content: center;
-    align-items: center;
+/* BOTONES Equipo y Calendario */ 
+.dropdown_cabecera .btn {
+    background-color: #2e5f82; 
+    color: white;
     font-size: 30px;
-
+    padding-left: 50px;
 }
 
-ul, li{
-    display: inline;
+.dropdown_cabecera .dropdown-menu {
+    width: 250px; 
+    min-width: 200px; 
+    background-color: #2e5f82; 
 }
 
-figure{
-    display: inline;
-    margin-left: 1px;
-}
+  
+/* Estilos de los elementos del menú */
+.dropdown-item {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
 
-header{
-    background: #2e5f82;
-    
-}*/
+/* Cambio de color al pasar el mouse */
+.dropdown-item:hover {
+    background-color: #6c8ea5;
+    color: white;
+  }
+  
+ /* ENLACES A OTRAS SECCIONES */ 
+  .nav-links {
+      display: flex; /* Alinea los enlaces en una fila */
+      gap: 25px;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .nav-links li a {
+      text-decoration: none;       
+      color: white;
+      font-size: 30px;
+      padding: 10px;
+  }
+  
+  .nav-links li a:hover {
+      text-decoration: underline;
+  }
 

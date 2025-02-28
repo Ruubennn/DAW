@@ -1,39 +1,28 @@
 /* Menú desplegable */
 
-/* Estilos generales del contenedor del dropdown */
-.mi-dropdown {
-  width: 100%; /* Ocupa todo el ancho */
-  position: relative; /* Para controlar la posición */
+.mi-dropdown .dropdown-menu {
+  width: auto; 
+  min-width: 400px;
+  background-color: #2e5f82; 
+  border: 2px solid white; 
+
 }
 
 /* Estilos del botón */
 .mi-dropdown .btn {
   width: 100%; /* Ocupa todo el ancho */
-  background-color: #2e5f82; /* Azul oscuro */
+  background-color: #2e5f82; 
   color: white;
-  border: 3px solid white; /* Borde blanco */
+  border: 3px solid white; 
   padding: 15px;
   font-size: 20px;
-  text-align: center;
-  transition: background-color 0.3s;
   text-align: left;
   padding-left: 50px;
 }
 
-
-/* Cambia el color del botón al pasar el mouse */
+/* Cambia el color del botón al pasar el ratón */
 .mi-dropdown .btn:hover {
   background-color: #6c8ea5; /* Azul más claro */
-}
-
-/* Ajusta el menú desplegable para que ocupe el ancho completo */
-.mi-dropdown .dropdown-menu {
-  width: auto; 
-  min-width: 400px;
-  background-color: #2e5f82; /* Azul oscuro */
-  border-radius: 0; /* Sin bordes redondeados */
-  border: 2px solid white; /* Borde blanco */
-
 }
 
 /* Estilos de los elementos del menú */
@@ -50,53 +39,4 @@
   color: white;
 }
 
-.dropdown_cabecera {
-    display: flex; /* Alinea todo en una fila */
-    align-items: center; /* Centra verticalmente */
-    gap: 20px; /* Espacio entre elementos */
-    width: 100%;
-    justify-content: center; /* Centra horizontalmente */
-}
-
-
-.dropdown_cabecera .btn {
-    background-color: #2e5f82; /* Azul oscuro */
-    color: white;
-    padding: 15px;
-    font-size: 30px;
-    text-align: center;
-    transition: background-color 0.3s;
-    text-align: left;
-    padding-left: 50px;
-}
-
-.dropdown_cabecera .dropdown-menu {
-    width: 250px; /* Cambia el ancho del dropdown */
-    min-width: 200px; /* Puedes ajustar el mínimo */
-    background-color: #2e5f82; /* Color de fondo */
-    border: 2px solid white; /* Borde blanco */
-}
-
-.dropdown {
-    position: relative; /* Asegura que el dropdown se muestre bien */
-}
-
-.nav-links {
-    display: flex; /* Alinea los enlaces en una fila */
-    gap: 20px;
-    list-style: none; /* Quita los puntos de la lista */
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    padding: 10px;
-}
-
-.nav-links li a:hover {
-    text-decoration: underline;
-}
 
