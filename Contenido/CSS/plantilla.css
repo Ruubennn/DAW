@@ -1,3 +1,7 @@
+.nombres h2{
+    padding: 0px;
+}
+
 /* TÍTULO OCULTO */
 .Titulo .Extra{
     width: 0%;
@@ -15,6 +19,10 @@ figure figcaption {
     text-align: center;
     position: relative;
     top: -35px;
+}
+
+.pie figcaption {
+    margin-left: 75px;
 }
 
 #Porteros figure {
@@ -36,6 +44,11 @@ figure figcaption {
     gap: 100px;
 }
 
+#Cierres figure figcaption, #Alas figure figcaption {
+    margin-left: 75px; 
+}
+
+
 #Cierres figure, #Alas figure {
     flex: 1;
     max-width: 425px;
@@ -49,6 +62,7 @@ figure figcaption {
     min-width: 50%;
     margin-top: 30px;
     border-radius: 50px;
+    margin-left: 75px;
 }
 
 #Pivots, #Porteros {
@@ -56,7 +70,7 @@ figure figcaption {
     flex-wrap: wrap;
     justify-content: left;
     gap: 100px;
-    margin-left: 100px;
+    margin-left: 175px;
 }
 
 #Pivots figure {
@@ -69,4 +83,6 @@ figure figcaption {
     margin-top: 30px;
     border-radius: 50px;
 }
+
+
 
