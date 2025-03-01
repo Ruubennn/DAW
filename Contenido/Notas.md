@@ -35,4 +35,4 @@ Flexible Grid: Nosotros
 Multicol: Noticias
 Flex: FINALIZADO (PLANTILLA)
 Grid: FINALIZADO (Partidos)
-Bootstrap: clasificación
+Bootstrap: clasificación HECHO
