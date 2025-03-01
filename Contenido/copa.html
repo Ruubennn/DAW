@@ -16,6 +16,8 @@
         
         <!-- Hojas de estilo CSS -->
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
+        <link rel="stylesheet" href="/Contenido/CSS/desplegable.css">
+        <link rel="stylesheet" href="/Contenido/CSS/copa.css"> 
       
     </head>
 
@@ -84,25 +86,23 @@
 
     <body>
 
-        <nav>
-            <ul>
-                <li> Copa 2024/25 
-                    <ul>
-                        <li> <a href="../Contenido/clasificacion.html">Liga 2024/25</a> </li>
-                        <li> <a href="../Contenido/copa.html">Copa 2024/25 </a></li>
-                    </ul>
-                </li>
-                <li>
-            </ul>
+        <nav class="mi-dropdown">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Liga 2024/25
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../Contenido/clasificacion.html">Liga 2024/25</a></li>
+                    <li><a class="dropdown-item" href="../Contenido/copa.html">Copa 2024/25</a></li>
+                </ul>
+            </div>
         </nav>
         
         <h2> COPA </h2>
         
-        <section>
-            <figure>
-                <img src="../Imagenes/clasificacion/bracket.jpg">
-            </figure>
-        </section>
+        <figure id = "clasificacion">
+            <img src="../Imagenes/clasificacion/bracket.jpg">
+        </figure>
 
 
         <footer> <p>Estrella Coja</p> </footer>

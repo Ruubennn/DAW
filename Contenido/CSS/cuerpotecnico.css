@@ -9,7 +9,6 @@ h1{
     font-size: 45px;
 }
 
-
 figure figcaption {
     background: #2e5f82;
     font-weight: bold;
@@ -27,6 +26,7 @@ figure figcaption {
     flex-wrap: wrap;
     justify-content: left;
     margin-left: 100px;
+    gap: 100px; /* Añadido para espacio entre figuras */
 }
 
 #SeccionSuperior figure {
@@ -46,6 +46,7 @@ figure figcaption {
     flex-wrap: wrap;
     justify-content: left;
     margin-left: 100px;
+    gap: 100px; /* Añadido para espacio entre figuras */
 }
 
 #SeccionInferior figure {
@@ -57,6 +58,5 @@ figure figcaption {
     width:100%;
     margin-top: 30px;
     border-radius: 50px;
-    
+    margin-bottom: 20px; /* Añadido para espacio inferior entre imagen y pie de foto */
 }
-

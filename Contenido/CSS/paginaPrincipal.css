@@ -103,7 +103,7 @@ th { /* Celda */
 
 /*     ÚLTIMOS RESULTADOS     */
 
-#proximosPartidos {
+#ultimosPartidos {
     float:right;
     background: #2e5f82;
     color: white;
