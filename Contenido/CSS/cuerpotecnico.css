@@ -3,53 +3,32 @@ h2 {
     padding-bottom: 0px;
 }
 
-#SeccionSuperior {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;  
-    margin: 0 auto;           /* Centra el contenedor */
-    gap: 100px;               /* Espacio entre figuras */
-    margin-left: 225px;
+.CuerpoTecnico{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    column-count: 3;
+    column-gap: 0px;
 }
 
-#SeccionSuperior figure {
+.CuerpoTecnico #Vacia{
+    visibility: hidden;
+}
+
+.CuerpoTecnico figure {
     width: 425px;
     text-align: center;       
-    display: flex;
-    flex-direction: column;
     align-items: center;      
 }
 
-#SeccionSuperior figure img {
+.CuerpoTecnico figure img {
     width: 100%;
     margin-top: 30px;
     border-radius: 50px;
 }
 
-#SeccionInferior {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-    margin: 0 auto;           
-    gap: 100px;             
+.CuerpoTecnico figure #Medico{
+    height:283px;
 }
-
-#SeccionInferior figure {
-    width: 425px;
-    text-align: center;       
-    display: flex;
-    flex-direction: column;
-    align-items: center;      
-}
-
-
-#SeccionInferior figure img {
-    width: 100%;
-    margin-top: 30px;
-    border-radius: 50px;
-    margin-bottom: 20px; 
-}
-
 
 figure figcaption {
     background: #2e5f82;

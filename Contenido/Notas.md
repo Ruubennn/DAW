@@ -32,7 +32,7 @@ NOTAS:
 SOLUCIONAR 
 
 Flexible Grid: Nosotros
-Multicol: Noticias
+Multicol: FINALIZADO (CUERPOTECNICO)
 Flex: FINALIZADO (PLANTILLA)
 Grid: FINALIZADO (Partidos)
 Bootstrap: clasificación HECHO
