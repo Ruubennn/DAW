@@ -1,35 +1,29 @@
-h1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 45px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-
-
-.Noticia {
-    display: flex;  
+h1 {
     padding-bottom: 50px;
 }
 
-.Portada {
-    flex-shrink: 0; 
-    width: 450px;
-    padding-left: 90px;  
+p {
+    font-size: 20px;
+    
 }
 
 .Portada img {
-    width: 100%;  
+    margin-left: 100px;
+    width: 40%;
 }
 
-.Contenido {
-    padding-left: 20px;
-    padding-right: 90px;
-    margin-left: 20px;
+
+.arriba {
+    float: right;
+    width: 45%;
+    margin-right: 100px;
+    text-align: justify;
 }
 
-.Contenido p{
-    font-size: 20px;
+.abajo {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    text-align: justify;
 }
