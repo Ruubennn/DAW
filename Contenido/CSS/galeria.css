@@ -10,6 +10,7 @@
     width: 40%;
     margin: 50px; 
     vertical-align: top; 
+    transition: transform 0.3s ease-in-out;
     
 }
 
@@ -20,29 +21,6 @@
     border: 3px solid white;/* Primer borde */
     outline: 10px solid #2e5f82; /* Segundo borde */
     transition: transform 0.3s ease-in-out; /* Animación */
-}
-
-.fotos img:hover {
-    transform: scale(1.1); /* Hace que la imagen crezca */
-}
-
-.video {
-    margin-top: 100px;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.video img {
-    height: 500px;
-    width: 700px;
-    border-radius: 50px;
-    border: 3px solid white;/* Primer borde */
-    outline: 10px solid #2e5f82; /* Segundo borde */
-    transition: transform 0.3s ease-in-out;
-}
-
-.video img:hover {
-    transform: scale(1.1); /* Hace que la imagen crezca */
 }
 
 figcaption {
@@ -56,14 +34,49 @@ figcaption {
     transition: transform 0.3s ease-in-out;
 }
 
+.fotos:hover img, 
+.fotos:hover figcaption {
+    transform: scale(1.1);
+}
+
+/*.fotos img:hover {
+    transform: scale(1.1); 
+}*/
+
+.video {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video img {
+    height: 500px;
+    width: 700px;
+    border-radius: 50px;
+    border: 3px solid white;/* Primer borde */
+    outline: 10px solid #2e5f82; /* Segundo borde */
+    transition: transform 0.3s ease-in-out;
+}
+
+/*.video img:hover {
+    transform: scale(1.1); 
+}*/
+
+.video:hover img, 
+.video:hover figcaption {
+    transform: scale(1.1);
+}
+
+
 .video figcaption {
     width: 40%;
     margin-left: 550px;
 }
 
-figcaption:hover {
+/*figcaption:hover {
     transform: scale(1.1); 
-}
+}*/
 
 
 

@@ -2,7 +2,10 @@
     padding: 0px;
 }
 
-
+.Titulo.nombres:hover img,
+.Titulo.nombres:hover figcaption {
+    transform: scale(1.1);
+}
 /* TÍTULO OCULTO */
 .Titulo .Extra{
     width: 0%;
@@ -20,6 +23,11 @@ figure figcaption {
     text-align: center;
     position: relative;
     top: -35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
 }
 
 .pie figcaption {
