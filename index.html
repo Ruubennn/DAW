@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="/Contenido/CSS/principal.css"> 
         <link rel="stylesheet" href="/Contenido/CSS/desplegable.css">
         <link rel="stylesheet" href="/Contenido/CSS/paginaPrincipal.css">
+        <link rel="stylesheet" href="/Contenido/CSS/audio.css">
       
     </head>
 
@@ -84,7 +85,26 @@
         </div>
     </header>
     
-    <body>       
+    <body>   
+        <audio autoplay loop id="musica">
+            <source src="/Imagenes/Himno.mpeg" type="audio/mpeg">
+        </audio>
+        
+        <button class="boton" onclick="toggleAudio()">ESCUCHA NUESTRO HIMNO</button>
+        
+        <script>
+            function toggleAudio() {
+                let audio = document.getElementById('musica');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        </script>
+        
+        
+            
         <h2> PRÓXIMO PARTIDO </h2> 
 
         <section id="proximoPartido">
