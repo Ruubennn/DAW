@@ -85,8 +85,11 @@
         </div>
     </header>
     
+    
+
+
     <body>   
-        <audio autoplay loop id="musica">
+        <!-- <audio autoplay loop id="musica">
             <source src="/Imagenes/Himno.mpeg" type="audio/mpeg">
         </audio>
         
@@ -101,7 +104,7 @@
                     audio.pause();
                 }
             }
-        </script>
+        </script>  -->
         
         
             
@@ -240,7 +243,33 @@
                     <p class="titular">Comienzan los Playoffs</p>
                 </figure>
             </div>
-        </section>        
+        </section>  
+        
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () { // Espera a que el documento cargue completamente
+
+                let btnSubir = document.createElement("button"); // Creación del botón
+                btnSubir.id = "btnSubir";   // Le asigna el id para asociarlo con el CSS
+                btnSubir.innerText = "⬆ Volver arriba"; // Define el texto
+                document.body.appendChild(btnSubir);    // Añade el botón al body para que sea visible
+        
+                window.addEventListener("scroll", function () { // Listener al scroll
+                    if (window.scrollY > 300) {     
+                        btnSubir.style.display = "block"; // Si el usuario ha bajado más de 300 píxeles, el botón se muestra
+                    } else {
+                        btnSubir.style.display = "none";  // Si está en la parte superior (menos de 300 píxeles), el botón se oculta
+                    }
+                });
+        
+                btnSubir.addEventListener("click", function () {  // Listener al click
+                    window.scrollTo({ top: 0, behavior: "smooth" }); // Función de JavaScript que permite mover la página. En este caso a la parte superior. Smooth (animación fluida)
+                });
+            });
+        </script>
+        
+        
 
         <footer> Estrella Coja </footer>
 

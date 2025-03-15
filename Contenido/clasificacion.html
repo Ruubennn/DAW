@@ -310,6 +310,71 @@
             </table>
     </section>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let filas = document.querySelectorAll("tbody tr"); // Selecciona todas las filas <tr> dentro de <tbody>
+    
+            for (let i = 0; i < filas.length; i++) { // Recorre todas las filas
+                filas[i].addEventListener("mouseover", function () { // Al pasar por encima
+                    this.style.transform = "scale(1.05)";
+                    this.style.transition = "all 0.3s ease-in-out";
+                });
+    
+                filas[i].addEventListener("mouseout", function () { // Cuando el mouse sale
+                    this.style.transform = "scale(1)";
+                });
+    
+                filas[i].addEventListener("click", function () { // Evento de clic en la fila
+                    let infoExistente = this.querySelector(".tooltip-info"); // Busca dentro de la fila si ya existe un .tooltip-info
+                    
+                    if (infoExistente) { // Si ya existe un tooltip, lo elimina al hacer clic de nuevo
+                        infoExistente.remove();
+
+                    } else {
+
+                        // Crea el tooltip 
+                        let tooltip = document.createElement("div");
+                        tooltip.classList.add("tooltip-info");
+                        
+                        // Obtener el contenido de la fila (<td>)
+                        let celdas = this.getElementsByTagName("td");
+
+                        // Crea un texto con toda la información de la fila
+                        let texto = "Detalles: ";
+                        for (let j = 0; j < celdas.length; j++) {
+                            texto += celdas[j].innerText + " | ";
+                        }
+    
+                        tooltip.innerText = texto;            //Inserta el texto en el tooltip
+                        tooltip.style.position = "absolute";  // Estilos al tooltip
+                        tooltip.style.background = "#000";
+                        tooltip.style.color = "white";
+                        tooltip.style.padding = "5px";
+                        tooltip.style.borderRadius = "5px";
+                        tooltip.style.fontSize = "12px";
+                        tooltip.style.top = "10px";
+                        tooltip.style.left = "50%";
+                        tooltip.style.transform = "translateX(-50%)";
+                        tooltip.style.zIndex = "1000";
+                        tooltip.style.whiteSpace = "nowrap";
+    
+                        this.style.position = "relative"; // Así se posiciona en la fila correcta
+                        this.appendChild(tooltip); // Añade el div del tooltip dentro de la fila
+    
+                        // Eliminar automáticamente el tooltip después de 3 segundos
+                        setTimeout(() => {
+                            tooltip.remove();
+                        }, 3000);
+                    }
+                });
+            }
+        });
+    </script>
+    
+    
+
+
+
     <!-- PIE DE PÁGINA -->
     <footer>
         <p>Estrella Coja</p>

@@ -150,6 +150,30 @@ th { /* Celda */
     text-align: center;
 }
 
+#btnSubir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2e5f82;
+    color: white;
+    border: 2px solid black; /* Contorno negro */
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+#btnSubir:hover {
+    background: #1c3f60;
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
+
+
+
+
 
   
   
