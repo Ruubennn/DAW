@@ -251,11 +251,17 @@
             document.addEventListener("DOMContentLoaded", function () { // Espera a que el documento cargue completamente
 
                 let btnSubir = document.createElement("button"); // Creación del botón
+
+                btnSubir.setAttribute("title", "Volver arriba"); // Asignación de un atributo
+
+                btnSubir.innerHTML = "⬆ Volver arriba"; //Modifica el contenido interno del botón
+
                 btnSubir.id = "btnSubir";   // Le asigna el id para asociarlo con el CSS
-                btnSubir.innerText = "⬆ Volver arriba"; // Define el texto
+                
                 document.body.appendChild(btnSubir);    // Añade el botón al body para que sea visible
         
                 window.addEventListener("scroll", function () { // Listener al scroll
+
                     if (window.scrollY > 300) {     
                         btnSubir.style.display = "block"; // Si el usuario ha bajado más de 300 píxeles, el botón se muestra
                     } else {
