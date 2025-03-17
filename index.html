@@ -286,7 +286,8 @@
         </script>
 
         <script>
-            $(document).ready(function () {
+
+            document.addEventListener("DOMContentLoaded", function () {
                 function countdown() {
                     var fecha = new Date("2025-04-20T18:00:00").getTime();
                     var ahora = new Date().getTime();
@@ -298,16 +299,20 @@
                         var minutos = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
                         var segundos = Math.floor((diff % (1000 * 60)) / 1000);
 
-                        $("#countdown").html(`${dias}d ${horas}h ${minutos}m ${segundos}s`);
+                        document.getElementById("countdown").innerHTML = `${dias}d ${horas}h ${minutos}m ${segundos}s`;
                     } else {
-                        $("#countdown").html("¡El partido ha comenzado!");
+                        document.getElementById("countdown").innerHTML = "¡El partido ha comenzado!";
                     }
                 }
 
                 setInterval(countdown, 1000);
+                countdown(); // Ejecutar inmediatamente para evitar el delay
             });
 
+
         </script>
+
+        
         
         
 

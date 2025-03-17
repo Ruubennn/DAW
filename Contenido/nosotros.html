@@ -148,6 +148,23 @@
             </div>
         </div>
 
+        <audio id="audioGol" src="audios/gol.mp3"></audio>
+        <button id="playAudio">🔊 Reproducir Sonido</button>
+        <button id="pauseAudio">⏸️ Pausar Sonido</button>
+        
+        <script>
+            $(document).ready(function () {
+                $("#playAudio").click(function () {
+                    $("#audioGol")[0].play(); // Accede al primer elemento del selector y ejecuta play()
+                });
+
+                $("#pauseAudio").click(function () {
+                    $("#audioGol")[0].pause(); // Pausa el audio
+                });
+            });
+
+        </script>
+
     <!--
         <section>
             <div class="titulos">
