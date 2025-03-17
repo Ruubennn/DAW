@@ -148,18 +148,24 @@
             </div>
         </div>
 
-        <audio id="audioGol" src="audios/gol.mp3"></audio>
-        <button id="playAudio">🔊 Reproducir Sonido</button>
-        <button id="pauseAudio">⏸️ Pausar Sonido</button>
+        <audio id="audioHimno" src="/Imagenes/audio"></audio>
+        <button id="botonAudio">▶️</button>
         
         <script>
             $(document).ready(function () {
-                $("#playAudio").click(function () {
-                    $("#audioGol")[0].play(); // Accede al primer elemento del selector y ejecuta play()
-                });
+                $("#botonAudio").click(function () {
 
-                $("#pauseAudio").click(function () {
-                    $("#audioGol")[0].pause(); // Pausa el audio
+                    let audio = $("#audioHimno")[0]; // Así accede al elemento <audio> y se puede reproducir y pausar el audio
+
+                    if(audio.paused){
+                        audio.play();
+                        $(this).html("⏸️");
+                    }
+                    else{
+                        audio.pause();
+                        $(this).html("▶️");
+                    }
+                    $("#audioHimno")[0].play(); // Accede al primer elemento del selector y ejecuta play()
                 });
             });
 
