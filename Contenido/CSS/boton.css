@@ -26,3 +26,21 @@
 .botonEnviar input {
     width: 70%;
  }
+
+ #botonAudio {
+   background-color: #2e5f82; 
+   color: white; 
+   font-size: 40px; 
+   padding: 30px 40px; 
+   border: none; 
+   cursor: pointer; 
+   width: 100%; 
+   border-radius: 50px; 
+   text-align: center; 
+   transition: background-color 0.5s; 
+}
+
+#botonAudio:hover {
+   background-color: #6c8ea5; 
+}
+
