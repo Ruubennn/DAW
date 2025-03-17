@@ -14,14 +14,14 @@
 #equipoLocal img {
     position: relative; 
     right: 325px;
-    top: -20px;
+    top: -60px;
     width: 400px;
 }
 
 #equipoVisitante img {
     position: relative; 
     left: 325px;
-    top: -500px;
+    top: -525px;
     width: 400px;
     height: 350px;
 }
@@ -40,7 +40,7 @@
 
 .lugar {
     position: relative;
-    bottom: 500px; 
+    bottom: 550px; 
     font-size: 50px;
 }
 
