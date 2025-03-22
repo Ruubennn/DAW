@@ -61,12 +61,12 @@
 
 
 
-.mapa img {
+/*.mapa img {
     max-width: 70%; 
     float: right;
     margin-right: 100px;
-    border: 5px solid white;/* Primer borde */
-    outline: 10px solid #2e5f82; /* Segundo borde */
+    border: 5px solid white;
+    outline: 10px solid #2e5f82;
     border-radius: 50px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, outline-color 0.3s ease-in-out;
 }
@@ -75,13 +75,24 @@
     transform: scale(1.05);
     box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
     
-}
+} */
+
+#mapa {
+    background: white !important; /* o transparent si lo prefieres */
+  }
+  
 
 .contenedor0 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
     margin-bottom: 100px;
-    text-align: center;
     font-size: 20px;
+    padding: 40px;
+    flex-wrap: wrap; /* Para que en pantallas pequeñas se adapten */
 }
+
 
 .redes-sociales {
     display: grid;
