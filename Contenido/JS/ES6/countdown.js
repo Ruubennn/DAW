@@ -7,11 +7,13 @@ export const countdown = () => { // Función Arrow
 
     if (diff > 0) {
 
-        // Funciones Arrow (ES6) y uso de let
-        let funcionDias = (diferencia) => Math.floor(diff / (1000 * 60 * 60 * 24));
-        let funcionHoras = (diferencia) => Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let funcionMinutos = (diferencia) => Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        let funcionSegundos = (diferencia) => Math.floor((diff % (1000 * 60)) / 1000);
+        // Funciones Arrow (ES6)
+        // Uso de let (ES6)
+        // Uso de Math.trunc -> método del Objeto Math introducido en ES6
+        let funcionDias = (diferencia) => Math.trunc(diferencia / (1000 * 60 * 60 * 24));
+        let funcionHoras = (diferencia) => Math.trunc((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let funcionMinutos = (diferencia) => Math.trunc((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+        let funcionSegundos = (diferencia) => Math.trunc((diferencia % (1000 * 60)) / 1000);
 
         document.getElementById("countdown").innerHTML = `${funcionDias(diff)}d ${funcionHoras(diff)}h ${funcionMinutos(diff)}m ${funcionSegundos(diff)}s`;
 
