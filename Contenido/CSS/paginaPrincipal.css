@@ -54,7 +54,7 @@ table { /* Tabla */
     margin-left: 200px;
 }
 
-th { /* Celda */
+td { /* Celda */
     background: #2e5f82;
     color: white;
     padding: 10px;
