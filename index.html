@@ -17,15 +17,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <!-- Agregar jQuery -->
-
     <script src="Contenido/JS/jquery-3.7.1.slim.min.js"></script>
 
 
     <!-- Hojas de estilo CSS -->
     <link rel="stylesheet" href="Contenido/CSS/principal.css"/>
-    <link rel="stylesheet" href="Contenido/CSS/desplegable.css"/>
     <link rel="stylesheet" href="Contenido/CSS/paginaPrincipal.css"/>
-    <link rel="stylesheet" href="Contenido/CSS/audio.css"/>
 
 </head>
 
@@ -266,7 +263,7 @@
 
                 btnSubir.innerHTML = "⬆ Volver arriba"; //Modifica el contenido interno del botón
 
-                btnSubir.id = "btnSubir";   // Le asigna el id para asociarlo con el CSS
+                btnSubir.className = "btnSubir";   // Le asigna el id para asociarlo con el CSS
 
                 document.body.appendChild(btnSubir);    // Añade el botón al body para que sea visible
 

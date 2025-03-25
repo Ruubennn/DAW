@@ -3,6 +3,7 @@
   margin-right: 150px;
   padding-top: 15px;
 }
+
 .seleccion {
   border-radius: 50px;
   background: white;
@@ -19,7 +20,7 @@
   color: white;
 }
 
-.seleccion.active {
+.seleccion .active {
   background: #2e5f82;
   color: white;
 }
@@ -27,7 +28,6 @@
 /* Tabla */
 .table thead th {
   background-color: #2e5f82;
-  color: white;
 }
 
 th { /* Celda */
@@ -51,14 +51,9 @@ td { /* Celda */
     background: #c15353;
 }
 
-footer {
-  margin-top: 100px;
-}
-
 /* Punto de ruptura para pantallas pequeñas */
 @media (max-width: 768px) {
   
-
   /* Reducir el tamaño de fuente para que se vea más adecuado en pantallas pequeñas */
   .table th, .table td {
       font-size: 14px;

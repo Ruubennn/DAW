@@ -1,46 +1,55 @@
 .boton {
-    display: block; 
-    text-align: center; 
-    margin: 20px auto; 
-    width: 500px; 
-    margin-bottom: 100px;
+   display: block;
+   text-align: center;
+   margin: 20px auto 100px auto;
+   width: 500px;
 }
-    
-.boton input {
+
+/* Estilo base compartido para botones grandes */
+.boton input,
+.botonAudio {
    background-color: #2e5f82;
-   color: white; 
+   color: white;
    font-size: 40px;
-   padding: 30px 40px; 
-   border: none; 
-   cursor: pointer; 
-   width: 100%; 
+   padding: 30px 40px;
+   border: none;
+   cursor: pointer;
    border-radius: 50px;
    text-align: center;
    transition: background-color 0.5s;
 }
-   
-.boton input:hover {
-   background-color: #6c8ea5;  
+
+.boton input {
+   width: 100%;
 }
 
+.boton input:hover,
+.botonAudio:hover {
+   background-color: #6c8ea5;
+}
+
+/* Botón Enviar más estrecho */
 .botonEnviar input {
-    width: 70%;
- }
-
- #botonAudio {
-   background-color: #2e5f82; 
-   color: white; 
-   font-size: 40px; 
-   padding: 30px 40px; 
-   border: none; 
-   cursor: pointer; 
-   width: 100%; 
-   border-radius: 50px; 
-   text-align: center; 
-   transition: background-color 0.5s; 
+   width: 70%;
 }
 
-#botonAudio:hover {
-   background-color: #6c8ea5; 
+/* Botón para subir al inicio */
+.btnSubir {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background: #2e5f82;
+   color: white;
+   border: 2px solid black;
+   padding: 10px 15px;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+   display: none;
+   transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
+.btnSubir:hover {
+   background: #1c3f60;
+   transform: scale(1.1);
+}

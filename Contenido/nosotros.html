@@ -21,14 +21,10 @@
     <script src="../Contenido/JS/jquery-3.7.1.slim.min.js"></script>
 
     <!-- Hojas de estilo CSS -->
-    <link rel="stylesheet" href="CSS/principal.css">
-    <link rel="stylesheet" href="CSS/nosotros.css">
-    <link rel="stylesheet" href="CSS/boton.css">
+    <link rel="stylesheet" href="CSS/principal.css"/>
+    <link rel="stylesheet" href="CSS/nosotros.css"/>
 
 </head>
-
-
-
 
 <body>
      <!-- CABECERA DE LA WEB-->
@@ -178,13 +174,12 @@
         </div>
 
         <audio controls id="audioHimno" src="../Imagenes/audio"></audio>
-        <div class="boton">
-            <button id="botonAudio">▶️</button>
-        </div>
+       
+        <button class="boton botonAudio">▶️</button>
 
         <script>
             $(document).ready(function () {
-                $("#botonAudio").click(function () {
+                $(".botonAudio").click(function () {
 
                     let audio = $("#audioHimno").eq(0); // Así accede al elemento <audio> y se puede reproducir y pausar el audio
 

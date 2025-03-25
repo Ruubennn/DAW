@@ -17,13 +17,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <!-- Hojas de estilo CSS -->
-    <link rel="stylesheet" href="CSS/principal.css">
-    <link rel="stylesheet" href="CSS/formulario.css">
-    <link rel="stylesheet" href="CSS/boton.css">
+    <link rel="stylesheet" href="CSS/principal.css"/>
+    <link rel="stylesheet" href="CSS/formulario.css"/>
 
 </head>
-
-
 
 <body>
     <!-- CABECERA DE LA WEB-->
@@ -109,20 +106,7 @@
         <h2>FORMULARIO PARA ASOCIARSE</h2>
 
         <form name="Formulario" action="graciasRegistro.html" method="GET">
-            <!--<section>     
-                <label for="txt">Nombre<input type="text" size="20" name="nombre" id="nom"></label><br/>
-                <label for="txt">Apellidos<input type="text" size="20" name="apellidos" id="ap"></label><br/>
-                <label for="txt">DNI<input type="text" size="20" name="dni" id="dni"></label><br/>
-                <label for="txt">Número teléfono<input type="text" size="20" name="tel" id="tel"></label><br/>
-                <label for="txt">Correo electrónico<input type="text" size="20" name="correo" id="correo"></label><br/>
-            
-                <input type="checkbox" checked> Deseo recibir información a través de la dirección de correo facilitada
-            
-            </section>
-    
-            <p class="boton botonEnviar">
-                <input type="submit" value="ENVIAR">
-            </p>-->
+
             <section class="contenedor">
                 <label for="nom">Nombre <span class="asterisco">*</span>
                     <input type="text" size="20" name="nombre"id="nom">
@@ -161,6 +145,54 @@
     <footer>
         <p>Estrella Coja</p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector("form");
+    
+            form.addEventListener("submit", function (event) {
+                // Evitamos el envío si algo no se valida
+                let errores = [];
+    
+                const nombre = document.getElementById("nom").value.trim();
+                const apellidos = document.getElementById("ap").value.trim();
+                const dni = document.getElementById("dni").value.trim();
+                const telefono = document.getElementById("tel").value.trim();
+                const correo = document.getElementById("correo").value.trim();
+    
+                const regNombre = /^[A-Za-zÁÉÍÓÚÑáéíóúñ\s]{2,}$/;
+                const regDNI = /^\d{8}[A-Za-z]$/;
+                const regTel = /^[6789]\d{8}$/;
+                const regCorreo = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+    
+                if (!regNombre.test(nombre)) {
+                    errores.push("Nombre no válido.");
+                }
+    
+                if (!regNombre.test(apellidos)) {
+                    errores.push("Apellidos no válidos.");
+                }
+    
+                if (!regDNI.test(dni)) {
+                    errores.push("DNI no válido.");
+                }
+    
+                if (!regTel.test(telefono)) {
+                    errores.push("Teléfono no válido.");
+                }
+    
+                if (!regCorreo.test(correo)) {
+                    errores.push("Correo electrónico no válido.");
+                }
+    
+                if (errores.length > 0) {
+                    event.preventDefault();
+                    alert("Errores encontrados:\n\n" + errores.join("\n"));
+                }
+            });
+        });
+    </script>
+    
 
 </body>
 

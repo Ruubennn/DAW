@@ -6,6 +6,7 @@
 .Titulo.nombres:hover figcaption {
     transform: scale(1.1);
 }
+
 /* TÍTULO OCULTO */
 .Titulo .Extra{
     width: 0%;
