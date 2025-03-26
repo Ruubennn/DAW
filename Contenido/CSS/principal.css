@@ -10,7 +10,7 @@ h1{
     padding-top: 50px;
     font-weight: bold;
     padding-bottom: 50px;
-}
+} 
 
 h2{
     text-align: center;
@@ -41,13 +41,17 @@ body {
 
  header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 2fr 8fr;
     align-items: center;
     background-color: #2e5f82;
 } 
 
 #icono_principal {
-    width: 250px;
+    width: 70%;
+}
+
+#icono_principal img {
+    width: 100%;
 }
 
 #menu {

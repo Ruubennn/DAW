@@ -1,6 +1,6 @@
 h2 {
     font-size: 1.6vw;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 0px;
 }
 
@@ -16,7 +16,7 @@ h2 {
 }
 
 .CuerpoTecnico figure {
-    width: 70%;
+    width: 80%;
     text-align: center;       
     align-items: center;      
 }
@@ -31,6 +31,12 @@ h2 {
 .CuerpoTecnico figure #Medico{
     aspect-ratio: 100 / 68;
 }
+
+.CuerpoTecnico figure:hover img,
+.CuerpoTecnico figure:hover figcaption {
+    transform: scale(1.1);
+}
+
 figure figcaption {
     background: #2e5f82;
     font-weight: bold;
@@ -44,7 +50,26 @@ figure figcaption {
     transition: transform 0.3s ease-in-out;
 }
 
-.CuerpoTecnico figure:hover img,
-.CuerpoTecnico figure:hover figcaption {
-    transform: scale(1.1);
+@media only screen and (max-width: 1000px){
+    h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .CuerpoTecnico{
+        column-count: 1;
+    }
+
+    .CuerpoTecnico figure {
+        width: 80%;    
+    }
+
+    .CuerpoTecnico #Vacia{
+        display: none;
+    }
+
+    figure figcaption {
+        font-size: 25px;
+    }
+
 }

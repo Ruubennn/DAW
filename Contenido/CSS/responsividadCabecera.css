@@ -1,224 +1,41 @@
-@media only screen and (min-width: 1300px) and (max-width: 1550px){
-    
-    #icono_principal {
-        width: 220px;
-    }
-    
+@media only screen and (max-width: 1200px){
 
-    .redes ul {
-        gap: 50px;               /* Separación entre logos  */
-        display: flex;
-        margin-left: 10px;
-        list-style: none;
-    }
-    
-    .logos {
-        width: 45px;            /* Tamaño de los logos */
-    }
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Primera columna fija, segunda flexible */
+    align-items: center;
+    background-color: #2e5f82;
+}
+#icono_principal img {
+    width: 100%; /* Ajusta al contenedor */
+    min-width: 150px; /* Establece un tamaño mínimo */
+    height: auto; /* Mantiene la proporción */
+}
 
-    .dropdown_cabecera {
-        display: flex;            /* Alinea todo en una fila */
-        align-items: center;      /* Centra verticalmente */
-        gap: 20px;                /* Espacio entre elementos */
-        width: 100%;
-    }
-    
-    /* BOTONES Equipo y Calendario */ 
-    .dropdown_cabecera .btn {
-        background-color: #2e5f82; 
-        color: white;
-        font-size: 25px;
-        padding-left: 40px;
-    }
-    
-    .dropdown_cabecera .dropdown-menu {
-        width: 250px; 
-        min-width: 200px; 
-        background-color: #2e5f82; 
-    }
-    
-      
-    /* Estilos de los elementos del menú */
-    .dropdown-item {
-        font-size: 20px;
-        color: white;
-        text-align: center;
-        padding: 15px;
-      }
-    
-    /* Cambio de color al pasar el mouse */
-    .dropdown-item:hover {
-        background-color: #6c8ea5;
-        color: white;
-      }
-      
-     /* ENLACES A OTRAS SECCIONES */ 
-      .nav-links {
-          display: flex; /* Alinea los enlaces en una fila */
-          gap: 25px;
-          padding: 0;
-          margin: 0;
-          list-style: none;
-      }
-      
-      .nav-links li a {
-          text-decoration: none;       
-          color: white;
-          font-size: 25px;
-          padding: 10px;
-      }
-      
-      .nav-links li a:hover {
-          text-decoration: underline;
-      }
+.logos {
+    width: 25px;            
+}
+
+#menu {
+    overflow: visible;
+    overflow-x: auto; /* Activa el scroll horizontal */
+    white-space: nowrap; /* Evita que los elementos se vayan a una nueva línea */
+    max-width: 100%;
+}
+
+.dropdown_cabecera .btn {
+    font-size: 20px;
+}
+
+.dropdown-item {
+    font-size: 20px;
   }
+  
+.nav-links li a {
+    font-size: 20px;
+}
 
-  @media only screen and (min-width: 1100px) and (max-width: 1300px){
     
-    #icono_principal {
-        width: 190px;
-    }
-    
+}
 
-    .redes ul {
-        gap: 50px;               /* Separación entre logos  */
-        display: flex;
-        margin-left: 10px;
-        list-style: none;
-    }
-    
-    .logos {
-        width: 40px;            /* Tamaño de los logos */
-    }
 
-    .dropdown_cabecera {
-        display: flex;            /* Alinea todo en una fila */
-        align-items: center;      /* Centra verticalmente */
-        gap: 20px;                /* Espacio entre elementos */
-        width: 100%;
-    }
-    
-    /* BOTONES Equipo y Calendario */ 
-    .dropdown_cabecera .btn {
-        background-color: #2e5f82; 
-        color: white;
-        font-size: 20px;
-        padding-left: 40px;
-    }
-    
-    .dropdown_cabecera .dropdown-menu {
-        width: 250px; 
-        min-width: 200px; 
-        background-color: #2e5f82; 
-    }
-    
-      
-    /* Estilos de los elementos del menú */
-    .dropdown-item {
-        font-size: 15px;
-        color: white;
-        text-align: center;
-        padding: 15px;
-      }
-    
-    /* Cambio de color al pasar el mouse */
-    .dropdown-item:hover {
-        background-color: #6c8ea5;
-        color: white;
-      }
-      
-     /* ENLACES A OTRAS SECCIONES */ 
-      .nav-links {
-          display: flex; /* Alinea los enlaces en una fila */
-          gap: 25px;
-          padding: 0;
-          margin: 0;
-          list-style: none;
-      }
-      
-      .nav-links li a {
-          text-decoration: none;       
-          color: white;
-          font-size: 20px;
-          padding: 10px;
-      }
-      
-      .nav-links li a:hover {
-          text-decoration: underline;
-      }
-  }
-
-  @media only screen and (min-width: 763px) and (max-width: 1100px){
-    
-    #icono_principal {
-        width: 170px;
-    }
-    
-
-    .redes ul {
-        gap: 50px;               /* Separación entre logos  */
-        display: flex;
-        margin-left: 10px;
-        list-style: none;
-    }
-    
-    .logos {
-        width: 35px;            /* Tamaño de los logos */
-    }
-
-    .dropdown_cabecera {
-        display: flex;            /* Alinea todo en una fila */
-        align-items: center;      /* Centra verticalmente */
-        gap: 20px;                /* Espacio entre elementos */
-        width: 100%;
-    }
-    
-    /* BOTONES Equipo y Calendario */ 
-    .dropdown_cabecera .btn {
-        background-color: #2e5f82; 
-        color: white;
-        font-size: 15px;
-        padding-left: 40px;
-    }
-    
-    .dropdown_cabecera .dropdown-menu {
-        width: 250px; 
-        min-width: 200px; 
-        background-color: #2e5f82; 
-    }
-    
-      
-    /* Estilos de los elementos del menú */
-    .dropdown-item {
-        font-size: 10px;
-        color: white;
-        text-align: center;
-        padding: 15px;
-      }
-    
-    /* Cambio de color al pasar el mouse */
-    .dropdown-item:hover {
-        background-color: #6c8ea5;
-        color: white;
-      }
-      
-     /* ENLACES A OTRAS SECCIONES */ 
-      .nav-links {
-          display: flex; /* Alinea los enlaces en una fila */
-          gap: 25px;
-          padding: 0;
-          margin: 0;
-          list-style: none;
-      }
-      
-      .nav-links li a {
-          text-decoration: none;       
-          color: white;
-          font-size: 15px;
-          padding: 10px;
-      }
-      
-      .nav-links li a:hover {
-          text-decoration: underline;
-      }
-  }
