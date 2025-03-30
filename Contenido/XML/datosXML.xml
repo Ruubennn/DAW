@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores>
+    <jugador id="ruben">
+        <partidos>33</partidos>
+        <goles>13</goles>
+        <asistencias>21</asistencias>
+        <tarjetas_rojas>0</tarjetas_rojas>
+        <lesiones>2</lesiones>
+        <pases>231</pases>
+        <amarillas>3</amarillas>
+        <centros>120</centros>
+    </jugador>
+
+    <jugador id="andres">
+        <partidos>25</partidos>
+        <goles>8</goles>
+        <asistencias>12</asistencias>
+        <tarjetas_rojas>1</tarjetas_rojas>
+        <lesiones>1</lesiones>
+        <pases>180</pases>
+        <amarillas>2</amarillas>
+        <centros>95</centros>
+    </jugador>
+
+    <jugador id="iglesias">
+        <partidos>33</partidos>
+        <goles>13</goles>
+        <asistencias>21</asistencias>
+        <tarjetas_rojas>0</tarjetas_rojas>
+        <lesiones>2</lesiones>
+        <pases>231</pases>
+        <amarillas>3</amarillas>
+        <centros>120</centros>
+    </jugador>
+
+    <jugador id="javi">
+        <partidos>25</partidos>
+        <goles>8</goles>
+        <asistencias>12</asistencias>
+        <tarjetas_rojas>1</tarjetas_rojas>
+        <lesiones>1</lesiones>
+        <pases>180</pases>
+        <amarillas>2</amarillas>
+        <centros>95</centros>
+    </jugador>
+
+    <jugador id="liste">
+        <partidos>33</partidos>
+        <goles>13</goles>
+        <asistencias>21</asistencias>
+        <tarjetas_rojas>0</tarjetas_rojas>
+        <lesiones>2</lesiones>
+        <pases>231</pases>
+        <amarillas>3</amarillas>
+        <centros>120</centros>
+    </jugador>
+
+    <jugador id="manuel">
+        <partidos>25</partidos>
+        <goles>8</goles>
+        <asistencias>12</asistencias>
+        <tarjetas_rojas>1</tarjetas_rojas>
+        <lesiones>1</lesiones>
+        <pases>180</pases>
+        <amarillas>2</amarillas>
+        <centros>95</centros>
+    </jugador>
+
+    <jugador id="sergio">
+        <partidos>33</partidos>
+        <goles>13</goles>
+        <asistencias>21</asistencias>
+        <tarjetas_rojas>0</tarjetas_rojas>
+        <lesiones>2</lesiones>
+        <pases>231</pases>
+        <amarillas>3</amarillas>
+        <centros>120</centros>
+    </jugador>
+
+    <jugador id="xurxo">
+        <partidos>25</partidos>
+        <goles>8</goles>
+        <asistencias>12</asistencias>
+        <tarjetas_rojas>1</tarjetas_rojas>
+        <lesiones>1</lesiones>
+        <pases>180</pases>
+        <amarillas>2</amarillas>
+        <centros>95</centros>
+    </jugador>
+
+    <jugador id="angel">
+        <partidos>25</partidos>
+        <goles>8</goles>
+        <asistencias>12</asistencias>
+        <tarjetas_rojas>1</tarjetas_rojas>
+        <lesiones>1</lesiones>
+        <pases>180</pases>
+        <amarillas>2</amarillas>
+        <centros>95</centros>
+    </jugador>
+
+
+    
+</jugadores>
