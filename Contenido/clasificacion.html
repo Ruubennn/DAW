@@ -156,6 +156,7 @@
 
                         // Recorre los equipos y genera filas -> Para cada equipo en el JSON:
                         data.clasificacion.forEach(equipo => {
+                            //Se distingue el tipo de equipo en base a su posición en la tabla
                             let claseFila = '';
                             if (equipo.posicion <= 2) {
                                 claseFila = 'primeros';
@@ -164,6 +165,8 @@
                             } else if (equipo.posicion >= data.clasificacion.length - 1) {
                                 claseFila = 'ultimos';
                             }
+
+                            //Distinguimos al equipo 'Estrella Coja' en la tabla 
 
                             let estilo = '';
                             if (equipo.equipo === 'Estrella Coja') {
