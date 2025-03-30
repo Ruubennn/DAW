@@ -61,31 +61,11 @@
 
 
 #mapa{
-    width: 50%; 
+    width: 43%; 
     height: 400px; 
     background: white;
 }
 
-/*.mapa img {
-    max-width: 70%; 
-    float: right;
-    margin-right: 100px;
-    border: 5px solid white;
-    outline: 10px solid #2e5f82;
-    border-radius: 50px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, outline-color 0.3s ease-in-out;
-}
-
-.mapa img:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
-    
-} */
-
-#mapa {
-    background: white !important; /* o transparent si lo prefieres */
-  }
-  
 
 .contenedor0 {
     display: flex;
@@ -100,13 +80,10 @@
 
 
 .redes-sociales {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    grid-template-rows: repeat(2, auto); /* 2 filas */
-    gap: 20px; /* Espacio entre iconos */
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+    display: flex; /*  flex para alinear en línea */
+    gap: 140px; /* Mantiene el espacio entre iconos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     margin: 40px auto; /* Centrar en la página */
 }
 
