@@ -4,10 +4,7 @@
     }
 
     .descripcion {
-        width: 65%;
         font-size: 20px;
-        border-radius: 40px;
-        color: white;
         padding-left: 35px;
         padding-right: 35px;
         padding-top: 35px;
@@ -34,18 +31,13 @@
     }
 
     .tituloPalmares {
-        font-weight: bold;
         font-size: 40px;
         float: none;
         margin: 0 auto;
     }
     
     .tituloDatos {
-        font-weight: bold;
         font-size: 40px;
-        float: none;
-
-        margin: 0 auto;
     }
     
     .contenido{
@@ -56,59 +48,27 @@
     }
 
     .bloque1, .bloque2 {
-        width: 100%; 
+        width: 100%;
         align-items: center;
-        margin: 30px 0;
+        margin: 0px auto;
     }
 
     .datos {
-        width: 650px;
+        width: 630px;
         height: 750px;
-        float: none;
-        margin: 0 auto;
-        border: 4px solid black;
-        padding-bottom: 120px;
     }
 
     .datos p {
         font-size: 30px;
-        margin-top: 35px;
-    }
-
-    .datos p a {
-        color: black;
     }
 
     .palmares {
-        width: 650px;
+        width: 630px;
         height: 750px;
-        float: none;
-        margin: 0 auto;
-        overflow: hidden;
-        border: 4px solid black;
     }
 
     .historialTitulos {
-        float: right;
-        margin-right: 50px;
-        text-align: center;
         font-size: 10px;
-        font-weight: bold;
-    }
-
-    .item1 {
-        position: relative;
-        top: 25px;
-    }
-
-    .item2 {
-        position: relative;
-        top: 165px;
-    }
-
-    .item3 {
-        position: relative;
-        top: 240px;
     }
 
     .competicion {
@@ -148,99 +108,39 @@
     }
 
     .descripcion {
-        width: 65%;
         font-size: 15px;
-        border-radius: 40px;
-        color: white;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 35px;
-        padding-bottom: 35px;
-
-        float: right;
-        margin-top: 50px;
-        margin-right: 80px;
     }
 
     .escudo {
         width: 200px;
-        float: left;
     }
 
     .escudo img{
-        width: 100%;
-        margin-left: 100px;
         padding-bottom: 20px;
     }
 
     .tituloPalmares {
-        float: right;
-        font-weight: bold;
         font-size: 30px;
         margin-right: 300px; 
     }
     
     .tituloDatos {
-        float: left;
-        font-weight: bold;
         font-size: 30px;
-        margin-left: 70px;
     }
 
-    .contenido{
-        width: 100%;
-        overflow: hidden;
-        margin-bottom: 120px;
-    }
 
     .datos {
         width: 400px;
         height: 750px;
-        border: 4px solid black;
-        padding-bottom: 120px;
-        margin-left: 150px;
-        float: left;
     }
     
     .datos p{
         font-size: 20px;
-        margin-top: 35px;
-    }
-    
-    .datos p a{
-        color: black;
     }
 
     .palmares{
         width: 400px;
         height: 750px;
-        overflow: hidden;
-        border: 4px solid black;
-        margin-right: 150px;
-        float: right
-    }
-
-    .historialTitulos {
-        float: right;
-        margin-right: 50px;
-        text-align: center;
-        font-size: 10px;
-        font-weight: bold;
-    }
-    
-    .item1 {
-        position: relative;
-        top: 25px;
-    }
-    
-    .item2 {
-        position: relative;
-        top: 165px;
-    }
-    
-    .item3 {
-        position: relative;
-        top: 240px;
     }
     
     .competicion{
@@ -249,28 +149,6 @@
     
     .total{
         font-size: 35px;
-    }
-
-    .foto1{
-        width: 90%;
-    }
-
-    .fotos{
-        width: 95%;
-    }
-
-    .fotos img{
-        width: 40%;
-        height: auto;
-        padding-bottom: 20px;
-    }
-    
-    .foto1 img{
-        width: 30%;
-        height: auto;
-        margin-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
 }
@@ -283,7 +161,6 @@
 
     .descripcion {
         font-size: 17px;
-        border-radius: 40px;
         padding-left: 35px;
         padding-right: 35px;
         padding-top: 35px;
@@ -324,9 +201,7 @@
     }
 
     .historialTitulos {
-        margin-right: 50px;
         font-size: 10px;
-        font-weight: bold;
     }
     
     .item2 {
@@ -351,26 +226,7 @@
         width: 90%;
     }
 
-    .fotos{
-        width: 95%;
-    }
-
-    .fotos img{
-        width: 40%;
-        height: auto;
-        padding-bottom: 20px;
-    }
-    
-    .foto1 img{
-        width: 30%;
-        height: auto;
-        margin-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
 }
-
 
 @media only screen and (min-width: 1550px) and (max-width: 1750px) {
     h1 {
@@ -378,14 +234,13 @@
     }
 
     .descripcion {
-        width: 65%;
         font-size: 20px;
         border-radius: 40px;
-        color: white;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 40px;
         padding-bottom: 40px;
+
         margin-right: 100px;
     }
 
@@ -414,7 +269,6 @@
     .datos p{
         font-size: 30px;
     }
-    
 
     .palmares{
         width: 550px;
@@ -422,11 +276,12 @@
     }
 
     .historialTitulos {
-        float: right;
-        margin-right: 50px;
-        text-align: center;
         font-size: 15px;
-        font-weight: bold;
+    }
+    
+    .item1 {
+        position: relative;
+        top: 25px;
     }
     
     .item2 {
@@ -440,7 +295,7 @@
     }
     
     .competicion{
-        font-size: 35px;
+        font-size: 32px;
     }
     
     .total{
