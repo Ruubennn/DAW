@@ -1,26 +1,12 @@
+@import "boton.css";
+@import "formulario.css";
+
 #dir{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-
-/*.infoContacto{
-    border: 10px solid #2e5f82; 
-    border-radius: 50px;
-    width: 30%;
-    margin-left: 100px;
-    margin-top: 50px;
-    padding: 20px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-}
-
-
-.infoContacto h4 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}*/
 
 .infoContacto{
     background-color:  #2e5f82; 
@@ -58,14 +44,11 @@
     justify-content: center;
 }
 
-
-
 #mapa{
     width: 43%; 
     height: 400px; 
     background: white;
 }
-
 
 .contenedor0 {
     display: flex;

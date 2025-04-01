@@ -58,25 +58,10 @@ figcaption {
     transition: transform 0.3s ease-in-out;
 }
 
-.video figcaption {
-    width: 100%;
-}
-
-/*.video img:hover {
-    transform: scale(1.1); 
-}*/
-
 .video:hover img, 
 .video:hover figcaption {
     transform: scale(1.1);
 }
-
-
-
-
-/*figcaption:hover {
-    transform: scale(1.1); 
-}*/
 
 
 
