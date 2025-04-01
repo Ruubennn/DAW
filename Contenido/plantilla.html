@@ -230,22 +230,15 @@
         </div>
 
         <script>
-            $(document).ready(function () { // Espera a que se cargue el documento
+            $(document).ready(function () {
 
-                $(".jugador").hover( // Selecciona todos los elemnentos con clase jugador
-                    // Método .hover para funciones cuando el mouse entra y cuando sale
-
+                $(".jugador").hover( 
                     function () {
                         $(this).find(".stats").stop(true, true).slideDown(300);
-                        // $(this) -> el jugador actual por el que pasa el mouse
-                        // find(".stats") -> busca el bloque .stats
-                        // .stop(true, true) -> detiene la animación anterior
-                        // .slideDown(300) -> muestra el .stats con un deslizamiento hacia abajo de 300 ms
-                    },
+                        },
 
                     function () {
                         $(this).find(".stats").stop(true, true).slideUp(300);
-                        // Funciona como el anterior pero al revés
                     }
                 );
             });

@@ -175,28 +175,6 @@
             </div>
         </div>
 
-        <audio id="audioHimno" src="../Imagenes/audio"></audio>
-       
-        <button class="boton botonAudio">▶️</button>
-
-        <script>
-            $(document).ready(function () {
-                $(".botonAudio").click(function () {
-
-                    let audio = $("#audioHimno").eq(0); // Así accede al elemento <audio> y se puede reproducir y pausar el audio
-
-                    if (audio.paused) {
-                        audio.play();
-                        $(this).html("⏸️");
-                    }
-                    else {
-                        audio.pause();
-                        $(this).html("▶️");
-                    }
-                });
-            });
-
-        </script>
     </main>
 
     <footer>
