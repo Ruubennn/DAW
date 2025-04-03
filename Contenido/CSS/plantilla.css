@@ -104,19 +104,18 @@ img {
     color: #333;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
-  }
+}
 
-  .stats1 {
-    margin-left: 95px;
-  }
-  
-  .jugador {
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-  .jugador:hover {
-    transform: scale(1.03);
-  }
-  
+.stats1 {
+margin-left: 95px;
+}
+
+.jugador {
+cursor: pointer;
+transition: transform 0.2s;
+}
+.jugador:hover {
+transform: scale(1.03);
+}
 
 
