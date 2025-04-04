@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jugadores>
     <jugador id="ruben">
-        <partidos>33</partidos>
+        <partidos>33</partidos> 
         <goles>13</goles>
         <asistencias>21</asistencias>
         <tarjetas_rojas>0</tarjetas_rojas>

@@ -107,15 +107,15 @@ img {
 }
 
 .stats1 {
-margin-left: 95px;
+    margin-left: 95px;
 }
 
 .jugador {
-cursor: pointer;
-transition: transform 0.2s;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 .jugador:hover {
-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 
