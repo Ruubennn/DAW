@@ -1,7 +1,7 @@
 export const countdown = () => { // Función Arrow
 
     // Uso de const (ES6)
-    const fecha = new Date("2025-04-20T18:00:00").getTime();
+    const fecha = new Date("2025-05-22T13:30:00").getTime();
     const ahora = new Date().getTime();
     const diff = fecha - ahora;
 
